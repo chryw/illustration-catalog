@@ -1,0 +1,54 @@
+.search {
+  margin: 2rem 0;
+  @media screen and (min-width: $breakpoint-sm) {
+    width: 300px;
+  }
+}
+
+.gallery-body {
+  font-size: 0;
+}
+
+.gallery-item {
+  background-color: $color-neutralLight;
+  float: left;
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+  border: 1px solid red;
+}
+
+.gallery-item-meta {
+  background-color: fade-out($color-black, .5);
+  bottom: 0;
+  color: $color-white;
+  display: none;
+  font-size: auto;
+  overflow: hidden;
+  padding: 1rem;
+  position: absolute;
+  vertical-align: middle;
+  width: 100%;
+
+  @media screen and (min-width: $breakpoint-md) {
+    display: block;
+  }
+}
+
+.gallery-item-title {
+  word-break: break-all;
+}
+
+.gallery-item-description {
+  display: none;
+}
+
+.gallery-item-thumbnail {
+  position: relative;
+  vertical-align: middle;
+  img {
+    position: absolute;
+    width: 100%;
+    height: auto;
+  }
+}

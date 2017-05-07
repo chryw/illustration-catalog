@@ -1,0 +1,82 @@
+{
+  "name": "vsimages",
+  "version": "2.0.0",
+  "description": "A catalog website for Visual Studio illustrations.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp watch",
+    "build": "gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "chryw",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.23.0",
+    "babel-preset-env": "^1.2.1",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.23.0",
+    "babelify": "^7.3.0",
+    "browserify-css": "^0.10.1",
+    "eslint": "^3.18.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.10.2",
+    "gulp-babel": "^6.1.2",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-uglify": "^2.0.1",
+    "gutil": "^1.6.4",
+    "reactify": "^1.1.1"
+  },
+  "dependencies": {
+    "axios": "^0.16.1",
+    "es6-promise": "^4.1.0",
+    "office-ui-fabric-react": "^2.5.2",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "gulp": "^3.9.1",
+    "gulp-replace": "^0.5.4",
+    "hasha": "^2.2.0",
+    "del": "^2.2.2",
+    "merge-stream": "^1.0.1",
+    "require-dir": "^0.3.1",
+    "browserify": "^14.1.0",
+    "gulp-rename": "^1.2.2",
+    "vinyl-source-stream": "^1.1.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-clean-css": "^3.0.3",
+    "gulp-sass": "^3.1.0",
+    "browser-sync": "^2.18.8"
+  },
+  "eslintConfig": {
+    "extends": "airbnb",
+    "plugins": [
+      "react",
+      "jsx-a11y",
+      "import"
+    ],
+    "globals": {
+      "window": true,
+      "document": true
+    },
+    "rules": {
+      "linebreak-style": 0,
+      "import/extensions": [
+        1,
+        "never",
+        {
+          "jsx": "always"
+        }
+      ]
+    }
+  },
+  "browserify-css": {
+        "autoInject": true,
+        "minify": true,
+        "rootDir": "."
+    }
+}

@@ -1,0 +1,47 @@
+@mixin link($color: $color-white, $color-hover: $color, $display: inline-block) {
+  a {
+    display: $display;
+    text-align: center;
+
+    &::after {
+      color: transparent;
+      content: attr(title);
+      display: block;
+      font-weight: 700;
+      height: 1px;
+      overflow: hidden;
+      visibility: hidden;
+    }
+
+    &,
+    &:visited,
+    &:hover,
+    &:focus {
+      color: $color;
+    }
+
+    &:hover,
+    &:focus,
+    &.active {
+      color: $color-hover;
+      font-weight: 600;
+      text-align: center;
+    }
+
+    &:not(:first-child) {
+      padding-left: 1rem;
+    }
+  }
+}
+
+@mixin transition($args...) {
+  -moz-transition: $args;
+  -ms-transition: $args;
+  -o-transition: $args;
+  -webkit-transition: $args;
+  transition: $args;
+}
+
+@mixin box-shadow($color: $color-black) {
+  box-shadow: 0 10px 30px -10px fade-out($color, .8);
+}

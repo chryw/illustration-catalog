@@ -1,0 +1,47 @@
+.header {
+  @include box-shadow;
+  height: 140px;
+  overflow: hidden;
+  padding: 1rem 2rem;
+  position: fixed;
+  top: 0;
+  width: inherit;
+  z-index: 9000;
+}
+
+.header-title {
+  span {
+    display: block;
+
+    &:first-child {
+      font-size: 1.8rem;
+    }
+
+    &:last-child {
+      font-size: 1.2rem;
+      font-weight: 300;
+    }
+
+    @media screen and (min-width: $breakpoint-sm) {
+      display: inline-block;
+
+      &:first-child {
+        font-size: 3.5rem;
+        font-weight: 100;
+        padding-right: .5rem;
+      }
+
+      &:last-child {
+        font-size: 1.2rem;
+      }
+    }
+  }
+}
+
+.header-nav {
+  @include link;
+  bottom: .5rem;
+  font-size: 1rem;
+  font-weight: 300;
+  position: absolute;
+}
