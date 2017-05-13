@@ -75,8 +75,8 @@
     }
   },
   "browserify-css": {
-        "autoInject": true,
-        "minify": true,
-        "rootDir": "."
-    }
+    "autoInject": true,
+    "minify": true,
+    "rootDir": "."
+  }
 }

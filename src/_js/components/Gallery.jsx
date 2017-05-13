@@ -15,6 +15,7 @@ export default class Gallery extends React.Component {
     this.state = {
       items: [],
       filteredItems: [],
+      pairedItems: [],
       limit: 0,
       count: 0,
     };
@@ -31,6 +32,17 @@ export default class Gallery extends React.Component {
       const isPublish = item => item.publish === 1;
       return data.filter(isPublish);
     };
+    this.pairResult = (data) => {
+      let pairs = [];
+      for (let i = 0; i < data.length; i += 2) {
+        if (data[i + 1]) {
+          pairs.push([data[i], data[i + 1]]);
+        } else {
+          pairs.push([data[i]]);
+        }
+      }
+      return pairs;
+    };
   }
 
   componentWillMount() {
@@ -46,13 +58,11 @@ export default class Gallery extends React.Component {
           items: this.limitResult(
             this.filterResult(response.data),
             this.state.limit),
-          itemsFiltered: this.limitResult(
+          filteredItems: this.limitResult(
             this.filterResult(response.data),
             this.state.limit),
-        });
-        // update count
-        this.setState({
-          count: this.state.itemsFiltered.length,
+          pairedItems: this.pairResult(response.data),
+          count: response.data.length,
         });
       });
   }
@@ -72,9 +82,6 @@ export default class Gallery extends React.Component {
   }
 
   render() {
-    const items = this.state.items;
-    let itemsFiltered = items;
-    let count = itemsFiltered.length;
     return (
       <div className="gallery">
         <div className="anchor" id="aGallery" />
@@ -83,35 +90,31 @@ export default class Gallery extends React.Component {
           <SearchBox
             onChange={(value) => {
               const query = value.toLowerCase();
-              itemsFiltered = items.filter((item) => {
-                const metadata = `${item.title.toLowerCase()} ${item.keywords ? item.keywords.join(' ').toLowerCase() : ''}`;
+              const filteredItems = this.state.filteredItems.filter((item) => {
+                const metadata = `${item.name.toLowerCase()} ${item.keywords ? item.keywords.join(' ').toLowerCase() : ''}`;
                 return metadata.indexOf(query) >= 0;
               });
-              count = itemsFiltered.length;
               this.setState({
-                itemsFiltered,
-                count,
+                filteredItems,
               });
             }}
           />
         </div>
         <List
           className="gallery-body"
-          items={this.state.itemsFiltered}
-          getItemCountForPage={this.getItemCountForPage}
-          getPageHeight={this.getPageHeight}
+          items={this.pairResult(this.state.filteredItems)}
           renderedWindowsAhead={4}
           onRenderCell={item => (
-            <div
-              className="gallery-item"
-              style={{
-                width: (100 / this.columnCount) + '%'
-              }}
-            >
+            <div className="gallery-row">
               <GalleryItem
-                id={item.id}
-                title={item.title}
-                description={item.description}
+                id={item[0].id}
+                title={item[0].title}
+                description={item[0].description}
+              />
+              <GalleryItem
+                id={item[1].id}
+                title={item[1].title}
+                description={item[1].description}
               />
             </div>
           )}
