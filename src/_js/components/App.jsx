@@ -11,7 +11,7 @@ const App = () => (
       <div className="ms-Grid-row ms-bgColor-white ms-fontColor-black body">
         <Overview />
         <Gallery
-          dataurl="illustrations.json"
+          dataurl="illustrations.json?v=@@hash-data-json"
         />
       </div>
       <Footer />

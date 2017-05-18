@@ -1,5 +1,5 @@
 .footer {
-  padding: 1rem 2rem;
+  padding: 2rem;
 }
 
 .footer-copyright {
@@ -8,4 +8,31 @@
 
 .footer-links {
   @include link;
+  margin-top: 1rem;
+}
+
+
+@media screen and (min-width: $breakpoint-md) {
+  .footer-copyright,
+  .footer-links {
+    display: inline-block;
+  }
+  .footer-links {
+    float: right;
+    margin-top: 0;
+  }
+  .footer-link {
+    display: inline-block;
+    &:not(:first-child) {
+      &:before {
+        display: inline-block;
+        content: '';
+        width: 1px;
+        height: 1rem;
+        background-color: $color-white;
+        margin-left: 1rem;
+        margin-right: 1rem;
+      }
+    }
+  }
 }

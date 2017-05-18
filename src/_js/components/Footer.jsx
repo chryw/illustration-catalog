@@ -8,10 +8,12 @@ const Footer = () => (
       <p>© 2017 Microsoft</p>
     </div>
     <div className="footer-links">
-      <Link title="Useful link 1" href="#">Useful link 1</Link>
-      <Link title="Useful link 1" href="#">Useful link 1</Link>
-      <Link title="Useful link 1" href="#">Useful link 1</Link>
-      <Link title="Useful link 1" href="#">Useful link 1</Link>
+      <div className="footer-link">
+        <Link title="Request new illustrations" href="http://aka.ms/dduxillu">Request new illustrations</Link>
+      </div>
+      <div className="footer-link">
+        <Link title="Download guideline deck" href="#">Download guideline deck</Link>
+      </div>
     </div>
   </div>
 );
