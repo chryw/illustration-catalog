@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { SearchBox, List } from 'office-ui-fabric-react/lib/index';
+import { TextField, List } from 'office-ui-fabric-react/lib/index';
 import * as axios from 'axios';
 import GalleryItem from './GalleryItem.jsx';
 
@@ -15,23 +15,25 @@ export default class Gallery extends React.Component {
     this.state = {
       items: [],
       filteredItems: [],
+      total: 0,
       pairedItems: [],
-      limit: 0,
-      count: 0,
     };
-    this.limitResult = (data, amount) => {
-      let dataLimited;
-      if (amount) {
-        dataLimited = data.slice(0, amount);
-      } else {
-        dataLimited = data;
-      }
-      return dataLimited;
+
+    this.filterResult = (query) => {
+      let filteredItems = this.state.items;
+      let pairedItems = this.state.pairedItems;
+
+      filteredItems = query ?
+      filteredItems.filter(item => `${item.title.toLowerCase()} ${item.keywords.join(' ').toLowerCase()}`.indexOf(query.toLowerCase()) >= 0) :
+      filteredItems;
+
+      pairedItems = this.pairResult(filteredItems);
+      this.setState({
+        filteredItems,
+        pairedItems,
+      });
     };
-    this.filterResult = (data) => {
-      const isPublish = item => item.publish === 1;
-      return data.filter(isPublish);
-    };
+
     this.pairResult = (data) => {
       let pairs = [];
       for (let i = 0; i < data.length; i += 2) {
@@ -49,20 +51,17 @@ export default class Gallery extends React.Component {
     // get data
     axios.get(this.props.dataurl)
       .then((response) => {
-        // grab props and set some initials
+        const items = response.data.filter(item => item.publish === 1);
+        const filteredItems = items;
+        const total = items.length;
+        const pairedItems = this.pairResult(items);
+
+        // set state
         this.setState({
-          limit: this.props.limit || null,
-        });
-        // filter and limit
-        this.setState({
-          items: this.limitResult(
-            this.filterResult(response.data),
-            this.state.limit),
-          filteredItems: this.limitResult(
-            this.filterResult(response.data),
-            this.state.limit),
-          pairedItems: this.pairResult(response.data),
-          count: response.data.length,
+          items,
+          filteredItems,
+          total,
+          pairedItems,
         });
       });
   }
@@ -82,42 +81,53 @@ export default class Gallery extends React.Component {
   }
 
   render() {
+    // search result count
+    const resultCountText = (this.state.filteredItems.length === this.state.items.length) ? '' : ` ${this.state.filteredItems.length} of ${this.state.items.length} shown`;
+
     return (
       <div className="gallery">
         <div className="anchor" id="aGallery" />
         <h3>Gallery</h3>
         <div className="search">
-          <SearchBox
-            onChange={(value) => {
-              const query = value.toLowerCase();
-              const filteredItems = this.state.filteredItems.filter((item) => {
-                const metadata = `${item.name.toLowerCase()} ${item.keywords ? item.keywords.join(' ').toLowerCase() : ''}`;
-                return metadata.indexOf(query) >= 0;
-              });
-              this.setState({
-                filteredItems,
-              });
-            }}
+          <TextField
+            label={`Filter by title ${resultCountText}`}
+            onBeforeChange={this.filterResult}
           />
         </div>
         <List
           className="gallery-body"
-          items={this.pairResult(this.state.filteredItems)}
+          items={this.state.pairedItems}
           renderedWindowsAhead={4}
-          onRenderCell={item => (
-            <div className="gallery-row">
-              <GalleryItem
-                id={item[0].id}
-                title={item[0].title}
-                description={item[0].description}
-              />
-              <GalleryItem
-                id={item[1].id}
-                title={item[1].title}
-                description={item[1].description}
-              />
-            </div>
-          )}
+          onRenderCell={(item) => {
+            let content = undefined;
+            if (item.length === 2) {
+              content = (
+                <div className="gallery-row">
+                  <GalleryItem
+                    id={item[0].id}
+                    title={item[0].title}
+                    description={item[0].description}
+                  />
+                  <GalleryItem
+                    id={item[1].id}
+                    title={item[1].title}
+                    description={item[1].description}
+                  />
+                </div>
+              );
+            } else {
+              content = (
+                <div className="gallery-row">
+                  <GalleryItem
+                    id={item[0].id}
+                    title={item[0].title}
+                    description={item[0].description}
+                  />
+                </div>
+              );
+            }
+            return content;
+          }}
         />
       </div>
     );
