@@ -1,4 +1,5 @@
 import * as React from 'react';
+import PropTypes from 'prop-types';
 import { Image, Link } from 'office-ui-fabric-react/lib/index';
 
 const formatTitle = str => (str.replace(/([A-Z])/g, ' $1').replace(/^./, str2 => (str2.toUpperCase())));
@@ -22,6 +23,7 @@ const GalleryItem = props => (
         <span className="icon ms-Icon ms-Icon--Download" />
         <Link className="label" href={`https://vsicons.blob.core.windows.net/assets/Illustrations/${props.title}/${props.title}.svg`} download>SVG</Link>
         <Link className="label" href={`https://vsicons.blob.core.windows.net/assets/Illustrations/${props.title}/${props.title}.png`} download>PNG</Link>
+        <Link className="label" href={`https://vsicons.blob.core.windows.net/assets/Illustrations/${props.title}/${props.title}.ai`} download>AI</Link>
       </div>
     </div>
   </div>
@@ -29,8 +31,8 @@ const GalleryItem = props => (
 
 
 GalleryItem.propTypes = {
-  title: React.PropTypes.string.isRequired,
-  description: React.PropTypes.string,
+  title: PropTypes.string.isRequired,
+  description: PropTypes.string,
 };
 
 GalleryItem.defaultProps = {

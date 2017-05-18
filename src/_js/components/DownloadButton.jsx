@@ -1,4 +1,5 @@
 import * as React from 'react';
+import PropTypes from 'prop-types';
 import { Button, ContextualMenu, DirectionalHint } from 'office-ui-fabric-react/lib/index';
 
 export default class DownloadButton extends React.Component {
@@ -42,8 +43,8 @@ export default class DownloadButton extends React.Component {
 }
 
 DownloadButton.propTypes = {
-  id: React.PropTypes.number.isRequired,
-  items: React.PropTypes.arrayOf,
+  id: PropTypes.number.isRequired,
+  items: PropTypes.arrayOf,
 };
 
 DownloadButton.defaultProps = {
