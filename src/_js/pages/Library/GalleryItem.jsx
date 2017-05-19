@@ -21,9 +21,9 @@ const GalleryItem = props => (
       </div>
       <div className="gallery-item-download">
         <span className="icon ms-Icon ms-Icon--Download" />
-        <Link className="label" href={`https://vsicons.blob.core.windows.net/assets/Illustrations/${props.title}/${props.title}.svg`} download>SVG</Link>
-        <Link className="label" href={`https://vsicons.blob.core.windows.net/assets/Illustrations/${props.title}/${props.title}.png`} download>PNG</Link>
-        <Link className="label" href={`https://vsicons.blob.core.windows.net/assets/Illustrations/${props.title}/${props.title}.ai`} download>AI</Link>
+        <Link title="SVG" href={`https://vsicons.blob.core.windows.net/assets/Illustrations/${props.title}/${props.title}.svg`} download>SVG</Link>
+        <Link title="PNG" href={`https://vsicons.blob.core.windows.net/assets/Illustrations/${props.title}/${props.title}.png`} download>PNG</Link>
+        <Link title="AI" href={`https://vsicons.blob.core.windows.net/assets/Illustrations/${props.title}/${props.title}.ai`} download>AI</Link>
       </div>
     </div>
   </div>

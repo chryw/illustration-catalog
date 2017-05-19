@@ -59,7 +59,6 @@
   overflow: hidden;
   position: relative;
   width: 100%;
-
   &:focus,
   &:hover {
     .gallery-item-thumbnail {
@@ -67,7 +66,8 @@
     }
 
     .gallery-item-meta {
-      background-color: fade-out($color-black, .2);
+      display: block;
+      opacity: 1;
     }
   }
   @media screen and (min-width: 425px) {
@@ -105,7 +105,7 @@
 }
 
 .gallery-item-meta {
-  background-color: fade-out($color-black, .5);
+  background-color: fade-out($color-black, .3);
   color: $color-white;
   height: 100%;
   left: 0;
@@ -113,6 +113,9 @@
   top: 0;
   width: 100%;
   z-index: 1200;
+  display: none;
+  opacity: 0;
+  @include transition(all, ease, .3s);
 
   & > * {
     position: absolute;
@@ -140,29 +143,10 @@
     bottom: 2rem;
     left: 2rem;
     opacity: .8;
-
-    .icon,
-    .label {
+    @include link($color: $color-white, $padding: .5rem);
+    &>* {
       display: inline-block;
       vertical-align: middle;
-
-      &:not(:first-child) {
-        margin-left: .5rem;
-      }
-    }
-
-    .label {
-      text-decoration: none;
-
-      &,
-      &:visited {
-        color: $color-white;
-      }
-
-      &:hover,
-      &:focus {
-        font-weight: 600;
-      }
     }
   }
 

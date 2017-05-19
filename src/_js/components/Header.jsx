@@ -1,5 +1,6 @@
 import * as React from 'react';
-import { Link } from 'office-ui-fabric-react/lib/index';
+import { NavLink } from 'react-router-dom';
+
 
 const Header = () => (
   <div className="header ms-Grid-row ms-bgColor-themePrimary ms-fontColor-white">
@@ -8,9 +9,8 @@ const Header = () => (
       <span>for Visual Studio family</span>
     </div>
     <div className="header-nav">
-      <Link href="#aOverview" title="Overview">Overview</Link>
-      <Link href="#aGallery" title="Gallery">Gallery</Link>
-      <Link href="#aFooter" title="Helpful Links">Useful Links</Link>
+      <NavLink to="/library" title="Library" activeClassName="active">Library</NavLink>
+      <NavLink to="/guidelines" title="Guidelines" activeClassName="active">Guidelines</NavLink>
     </div>
   </div>
 );

@@ -39,7 +39,7 @@
 }
 
 .header-nav {
-  @include link;
+  @include link($color: $color-white, $padding: 1rem);
   bottom: .5rem;
   font-size: 1rem;
   font-weight: 300;

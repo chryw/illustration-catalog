@@ -87,8 +87,6 @@ export default class Gallery extends React.Component {
 
     return (
       <div className="gallery">
-        <div className="anchor" id="aGallery" />
-        <h3>Gallery</h3>
         <div className="search">
           <TextField
             label={`Filter by title ${resultCountText}`}

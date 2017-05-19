@@ -1,0 +1,25 @@
+.colors-table {
+  width: 100%;
+}
+
+.color-block {
+  text-align: center;
+  width: 100%;
+  overflow: hidden;
+  height: 2rem;
+  line-height: 2rem;
+}
+
+
+@media screen and (min-width: $breakpoint-sm) {
+  .colors-table {
+    display: list;
+    list-style: none;
+    column-count: 10;
+    column-gap: 0;
+  }
+  .color-block {
+    height: 4rem;
+    line-height: 4rem;
+  }
+}

@@ -1,0 +1,19 @@
+.guidelines {
+  h2 {
+    margin-bottom: 0;
+    @include link($color: transparent, $display: inline);
+    a {
+      margin-left: .5rem;
+
+      &::after {
+        display: inline;
+      }
+    }
+    &:hover,
+    &:focus {
+      a {
+        color: $color-themePrimary;
+      }
+    }
+  }
+}

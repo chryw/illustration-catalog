@@ -5,7 +5,7 @@ const Footer = () => (
   <div className="footer ms-Grid-row ms-bgColor-neutralDark ms-fontColor-white">
     <div className="anchor" id="aFooter" />
     <div className="footer-copyright">
-      <p>© 2017 Microsoft</p>
+      <span>© 2017 Microsoft</span>
     </div>
     <div className="footer-links">
       <div className="footer-link">
