@@ -4,7 +4,7 @@ import Gallery from './Library/Gallery.jsx';
 const Library = () => (
   <div className="library">
     <Gallery
-      dataurl="illustrations.json?v=@@hash-data-json"
+      dataurl="data.json?v=@@data-json"
     />
   </div>
 );

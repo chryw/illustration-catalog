@@ -36,7 +36,7 @@ export default class Gallery extends React.Component {
     };
 
     this.pairResult = (data) => {
-      let pairs = [];
+      const pairs = [];
       for (let i = 0; i < data.length; i += 2) {
         if (data[i + 1]) {
           pairs.push([data[i], data[i + 1]]);
@@ -89,7 +89,7 @@ export default class Gallery extends React.Component {
       <div className="gallery">
         <div className="search">
           <TextField
-            label={`Filter by title ${resultCountText}`}
+            label={`Filter by title or keywords ${resultCountText}`}
             onBeforeChange={this.filterResult}
           />
         </div>
@@ -98,7 +98,7 @@ export default class Gallery extends React.Component {
           items={this.state.pairedItems}
           renderedWindowsAhead={4}
           onRenderCell={(item) => {
-            let content = undefined;
+            let content;
             if (item.length === 2) {
               content = (
                 <div className="gallery-row">
