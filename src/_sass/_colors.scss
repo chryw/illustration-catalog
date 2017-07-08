@@ -10,16 +10,9 @@
   line-height: 2rem;
 }
 
-
-@media screen and (min-width: $breakpoint-sm) {
+@media screen and (min-width: $breakpoint-md) {
   .colors-table {
     display: list;
-    list-style: none;
-    column-count: 10;
-    column-gap: 0;
-  }
-  .color-block {
-    height: 4rem;
-    line-height: 4rem;
+    columns: 5;
   }
 }
