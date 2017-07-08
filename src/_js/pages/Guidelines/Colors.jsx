@@ -34,7 +34,7 @@ class Colors extends React.Component {
         <div className="anchor" id="colors" />
         <h2>Colors<NavLink to={`${this.props.match.params.id}#colors`} title="Colors">#</NavLink></h2>
         <div>
-          <p>VSTS uses the <Link href="http://dev.office.com/fabric#/styles/colors">Fabric color palette</Link>, making additional shades and variations as needed. As with imagery, simpler is generally better.</p>
+          <p>We use colors from the <Link href="https://microsoft.sharepoint.com/teams/BrandCentral/Pages/Illustrations-Microsoft.aspx">Microsoft illustration color palette</Link>. While the palette has a wide selection of colors and shades, we only use limited amount of colors at a time to create clean and easy to read illustrations. Also keep in mind that the primary theme color of the product UI is blue (<Link href="http://dev.office.com/fabric#/styles/colors" >Fabric Colors</Link>). Colors used in illustrations should be harmonious with the environment.</p>
           <div className="colors-table">
             { colorBlocks }
           </div>
