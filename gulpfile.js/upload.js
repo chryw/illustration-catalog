@@ -1,4 +1,3 @@
-require('dotenv').config();
 const azure = require('azure-storage');
 const foreach = require('gulp-foreach');
 const gulp = require('gulp');
