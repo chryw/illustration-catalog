@@ -34,18 +34,6 @@ export default class Gallery extends React.Component {
         pairedItems,
       });
     };
-
-    this.pairResult = (data) => {
-      const pairs = [];
-      for (let i = 0; i < data.length; i += 2) {
-        if (data[i + 1]) {
-          pairs.push([data[i], data[i + 1]]);
-        } else {
-          pairs.push([data[i]]);
-        }
-      }
-      return pairs;
-    };
   }
 
   componentWillMount() {
@@ -55,14 +43,12 @@ export default class Gallery extends React.Component {
         const items = response.data.filter(item => item.publish === 1);
         const filteredItems = items;
         const total = items.length;
-        const pairedItems = this.pairResult(items);
 
         // set state
         this.setState({
           items,
           filteredItems,
           total,
-          pairedItems,
         });
       });
   }
@@ -95,38 +81,19 @@ export default class Gallery extends React.Component {
         </div>
         <List
           className="gallery-body"
-          items={this.state.pairedItems}
+          items={this.state.filteredItems}
           renderedWindowsAhead={4}
-          onRenderCell={(item) => {
-            let content;
-            if (item.length === 2) {
-              content = (
-                <div className="gallery-row">
-                  <GalleryItem
-                    id={item[0].id}
-                    title={item[0].title}
-                    description={item[0].description}
-                  />
-                  <GalleryItem
-                    id={item[1].id}
-                    title={item[1].title}
-                    description={item[1].description}
-                  />
-                </div>
-              );
-            } else {
-              content = (
-                <div className="gallery-row">
-                  <GalleryItem
-                    id={item[0].id}
-                    title={item[0].title}
-                    description={item[0].description}
-                  />
-                </div>
-              );
-            }
-            return content;
-          }}
+          onRenderCell={item => (
+            <GalleryItem
+              id={item.id}
+              title={item.title}
+              keywords={item.keywords}
+              description={item.description}
+              style={{
+                width: `${100 / this.columnCount}%`,
+              }}
+            />
+          )}
         />
       </div>
     );
