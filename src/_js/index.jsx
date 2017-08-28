@@ -14,7 +14,7 @@ ReactDOM.render((
     <div className="ms-bgColor-neutralPrimary">
       <div className="ms-Grid wrapper">
         <Header />
-        <div className="ms-Grid-row ms-bgColor-white ms-fontColor-black body">
+        <div className="ms-Grid-row ms-bgColor-neutralLight ms-fontColor-black body">
           <Route exact path="/" component={Library} />
           <Route exact path="/library" component={Library} />
           <Route exact path="/guidelines" component={Guidelines} />

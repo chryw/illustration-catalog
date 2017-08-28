@@ -5,17 +5,63 @@
   }
 }
 
-.gallery-body {
-  font-size: 0;
-  padding: 2rem;
+.gallery-item {
+  float: left;
+  padding: 1%;
+  position: relative;
   overflow: hidden;
 }
 
-.gallery-item {
-  display: inline-block;
-  overflow: hidden;
+.gallery-item-wrapper {
   background-color: $color-white;
-  padding: 4%;
-  margin-bottom: 4%;
   position: relative;
+  height: 100%;
+  box-shadow: 0 1px 2px fade-out($color-black, .9);
+  &:hover,
+  &:focus {
+    .gallery-item-meta {
+      display: block;
+    }
+  }
+}
+
+.gallery-item-thumbnail {
+  padding: 2%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+}
+
+.gallery-item-meta {
+  background-color: $color-white;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  padding: 1rem;
+  font-size: .8rem;
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.gallery-item-title {
+  margin: 0;
+}
+
+.gallery-item-download {
+  position: absolute;
+  bottom: 1rem;
+  &>* {
+    &:not(:first-child) {
+      padding-left: .2rem;
+    }
+  }
 }
