@@ -11,7 +11,7 @@ const GalleryItem = props => (
   <div className="gallery-item">
     <div className="gallery-item-thumbnail">
       <Image
-        src={` https://vsicons.blob.core.windows.net/assets/Illustrations/${props.title}.png `}
+        src={` https://vsicons.blob.core.windows.net/illustrations/${props.title}.png `}
         alt={` ${formatTitle(props.title)} `}
       />
     </div>
@@ -24,8 +24,8 @@ const GalleryItem = props => (
       </div>
       <div className="gallery-item-download">
         <span className="icon ms-Icon ms-Icon--Download" />
-        <Link title="SVG" href={`https://vsicons.blob.core.windows.net/assets/Illustrations/${props.title}.svg`} download>SVG</Link>
-        <Link title="PNG" href={`https://vsicons.blob.core.windows.net/assets/Illustrations/${props.title}.png`} download>PNG</Link>
+        <Link title="SVG" href={`https://vsicons.blob.core.windows.net/illustrations/${props.title}.svg`} download>SVG</Link>
+        <Link title="PNG" href={`https://vsicons.blob.core.windows.net/illustrations/${props.title}.png`} download>PNG</Link>
       </div>
     </div>
   </div>
