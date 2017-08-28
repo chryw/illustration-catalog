@@ -5,188 +5,63 @@
   }
 }
 
-.gallery-body {
-  overflow: hidden;
-}
-
-.gallery-row {
-  height: inherit;
-  width: 100%;
-}
-@media screen and (min-width: 550px) {
-  .gallery-item {
-    &:first-child {
-      margin-right: 4%;
-    }
-  }
-
-  .gallery-body {
-    .ms-List-cell {
-      height: auto;
-      overflow: hidden;
-      width: inherit;
-      &:nth-child(2n+1) {
-        .gallery-item {
-          &:first-child {
-            width: 62%;
-          }
-          &:last-child {
-            width: 34%;
-          }
-        }
-      }
-
-      &:nth-child(2n) {
-        .gallery-item {
-          &:first-child {
-            width: 34%;
-          }
-          &:last-child {
-            width: 62%;
-          }
-        }
-      }
-    }
-  }
-}
-
 .gallery-item {
-  background-color: $color-neutralLight;
-  box-shadow: 0 10px 30px fade-out($color-black, .8);
   float: left;
-  height: 13rem;
-  margin-bottom: 4%;
-  overflow: hidden;
+  padding: 1%;
   position: relative;
-  width: 100%;
-  &:focus,
-  &:hover {
-    .gallery-item-thumbnail {
-      transform: scale(1.1, 1.1);
-    }
+  overflow: hidden;
+}
 
+.gallery-item-wrapper {
+  background-color: $color-white;
+  position: relative;
+  height: 100%;
+  box-shadow: 0 1px 2px fade-out($color-black, .9);
+  &:hover,
+  &:focus {
     .gallery-item-meta {
       display: block;
-      opacity: 1;
     }
-  }
-  @media screen and (min-width: 425px) {
-    height: 20rem;
-  }
-  @media screen and (min-width: 550px) {
-    height: 12rem;
-  }
-  @media screen and (min-width: 1024px) {
-    height: 16rem;
-  }
-  @media screen and (min-width: 1440px) {
-    height: 24rem;
   }
 }
 
 .gallery-item-thumbnail {
-  @include transition(ease, all, .5s);
-  height: inherit;
+  padding: 2%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   width: 100%;
-
-  &>div {
-    height: inherit;
-    position: relative;
-    width: inherit;
-
-    img {
-      display: block;
-      left: 50%;
-      position: absolute;
-      top: 50%;
-      transform: translate(-50%, -50%);
-    }
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
   }
 }
 
 .gallery-item-meta {
-  background-color: fade-out($color-black, .3);
-  color: $color-white;
+  background-color: $color-white;
+  overflow: hidden;
   height: 100%;
-  left: 0;
+  width: 100%;
+  padding: 1rem;
+  font-size: .8rem;
+  display: none;
   position: absolute;
   top: 0;
-  width: 100%;
-  z-index: 1200;
-  display: none;
-  opacity: 0;
-  @include transition(all, ease, .3s);
+  left: 0;
+}
 
-  & > * {
-    position: absolute;
-  }
+.gallery-item-title {
+  margin: 0;
+}
 
-  .gallery-item-title {
-    font-size: 1rem;
-    font-weight: 300;
-    left: 50%;
-    padding: 2rem;
-    text-align: center;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    width: 100%;
-  }
-
-  .gallery-item-description {
-    display: none;
-    max-height: 60%;
-    overflow: hidden;
-    padding: 2rem;
-  }
-
-  .gallery-item-download {
-    bottom: 2rem;
-    left: 2rem;
-    opacity: .8;
-    @include link($color: $color-white, $padding: .5rem);
-    &>* {
-      display: inline-block;
-      vertical-align: middle;
-    }
-  }
-
-  @media screen and (min-width: 1024px) {
-    .gallery-item-title {
-      font-size: 1.2rem;
-      text-align: left;
-      top: 10%;
-    }
-
-    .gallery-item-description {
-      display: block;
-      top: 20%;
-    }
-  }
-
-  @media screen and (min-width: 1440px) {
-    .gallery-item-title {
-      font-size: 1.6rem;
-      text-align: left;
-      top: 10%;
-    }
-
-    .gallery-item-description {
-      display: block;
-      font-size: 1.2rem;
-      top: 20%;
-    }
-  }
-  @media screen and (min-width: 2560px) {
-    .gallery-item-title {
-      font-size: 2.5rem;
-      text-align: left;
-      top: 10%;
-    }
-
-    .gallery-item-description {
-      display: block;
-      font-size: 1.5rem;
-      top: 25%;
+.gallery-item-download {
+  position: absolute;
+  bottom: 1rem;
+  &>* {
+    &:not(:first-child) {
+      padding-left: .2rem;
     }
   }
 }

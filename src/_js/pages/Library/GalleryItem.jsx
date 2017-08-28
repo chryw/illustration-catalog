@@ -7,25 +7,27 @@ const formatTitle = (str) => {
   return removeCategory.charAt(0).toUpperCase() + removeCategory.slice(1);
 };
 
+const formatKeywords = arr => arr.join(', ');
+
 const GalleryItem = props => (
-  <div className="gallery-item">
+  <div className="gallery-item-wrapper">
     <div className="gallery-item-thumbnail">
       <Image
-        src={` https://vsicons.blob.core.windows.net/illustrations/${props.title}.png `}
-        alt={` ${formatTitle(props.title)} `}
+        src={`${props.urlprefix}/${props.title}.png`}
+        alt={`${formatTitle(props.title)}`}
       />
     </div>
-    <div className="gallery-item-meta">
+    <div className="gallery-item-meta" data-keywords={`${formatKeywords(props.keywords)}`}>
       <h2 className="gallery-item-title">
-        {` ${formatTitle(props.title)} `}
+        {`${formatTitle(props.title)}`}
       </h2>
       <div className="gallery-item-description">
-        {` ${props.description} `}
+        {`${props.description}`}
       </div>
       <div className="gallery-item-download">
         <span className="icon ms-Icon ms-Icon--Download" />
-        <Link title="SVG" href={`https://vsicons.blob.core.windows.net/illustrations/${props.title}.svg`} download>SVG</Link>
-        <Link title="PNG" href={`https://vsicons.blob.core.windows.net/illustrations/${props.title}.png`} download>PNG</Link>
+        <Link title="SVG" href={`${props.urlprefix}/${props.title}.svg`} download>SVG</Link>
+        <Link title="PNG" href={`${props.urlprefix}/${props.title}.png`} download>PNG</Link>
       </div>
     </div>
   </div>
@@ -35,10 +37,13 @@ const GalleryItem = props => (
 GalleryItem.propTypes = {
   title: PropTypes.string.isRequired,
   description: PropTypes.string,
+  keywords: PropTypes.arrayOf,
+  urlprefix: PropTypes.string.isRequired,
 };
 
 GalleryItem.defaultProps = {
   description: 'Refer to illustration title.',
+  keywords: 'Refer to illustration title',
 };
 
 export default GalleryItem;
