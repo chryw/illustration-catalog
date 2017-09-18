@@ -37,7 +37,7 @@ const GalleryItem = props => (
 GalleryItem.propTypes = {
   title: PropTypes.string.isRequired,
   description: PropTypes.string,
-  keywords: PropTypes.arrayOf,
+  keywords: PropTypes.string,
   urlprefix: PropTypes.string.isRequired,
 };
 

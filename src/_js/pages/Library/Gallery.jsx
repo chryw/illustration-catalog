@@ -79,7 +79,7 @@ export default class Gallery extends React.Component {
                 className="gallery-item"
                 style={{
                   width: `${100 / this.columnCount}%`,
-                  height: `${MAX_ROW_HEIGHT}`,
+                  height: `${MAX_ROW_HEIGHT}px`,
                 }}
               >
                 <GalleryItem
