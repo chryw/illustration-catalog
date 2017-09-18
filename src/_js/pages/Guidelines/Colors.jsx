@@ -46,7 +46,7 @@ class Colors extends React.Component {
 }
 
 Colors.propTypes = {
-  match: PropTypes.object.isRequired,
+  match: PropTypes.array.isRequired,
 };
 
 export default Colors;
