@@ -27,6 +27,7 @@ class Colors extends React.Component {
       <ColorBlock
         background={item.background}
         foreground={item.foreground}
+        key={item.background}
       />
   ));
     return (
@@ -45,7 +46,7 @@ class Colors extends React.Component {
 }
 
 Colors.propTypes = {
-  match: PropTypes.arrayOf.isRequired,
+  match: PropTypes.object.isRequired,
 };
 
 export default Colors;
