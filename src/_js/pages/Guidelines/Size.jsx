@@ -13,7 +13,6 @@ const Size = ({ match }) => (
       <Image
         src="images/guidelines-size-01.png"
         alt="Example image of size."
-        height={200}
       />
     </div>
   </section>

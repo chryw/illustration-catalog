@@ -1,0 +1,31 @@
+.nav-menuicon {
+  height: 2rem;
+  line-height: 2rem;
+  font-size: 1.5rem;
+  margin-right: 12px;
+}
+
+@media screen and (min-width: $breakpoint-sm) {
+  .nav-menuicon {
+    display: none;
+  }
+}
+
+@media screen and (max-width: $breakpoint-md) {
+  .nav-menu {
+    background-color: $color-white;
+    left: 0;
+    position: absolute;
+    top: 0;
+    z-index: 8000;
+    @include box-shadow;
+
+    .ms-Nav {
+      overflow: hidden;
+      height: 0;
+      &.active {
+        height: auto;
+      }
+    }
+  }
+}

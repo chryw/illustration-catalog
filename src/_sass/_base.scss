@@ -20,7 +20,7 @@ body {
 .wrapper {
   margin: 0 auto;
   width: 100%;
-  @media screen and (min-width: $breakpoint-md) {
+  @media screen and (min-width: $breakpoint-xl) {
     width: 80%;
   }
 }

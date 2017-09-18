@@ -13,13 +13,11 @@ const Placement = ({ match }) => (
       <Image
         src="images/guidelines-placement-01.png"
         alt="Example image of centered placement."
-        height={200}
       />
       <p>On occasions where a significant amount of text is needed, the image can be flush left with text flush left in the next column.</p>
       <Image
         src="images/guidelines-placement-02.png"
         alt="Example image of left placement."
-        height={200}
       />
     </div>
   </section>
