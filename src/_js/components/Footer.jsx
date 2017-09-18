@@ -11,9 +11,6 @@ const Footer = () => (
       <div className="footer-link">
         <Link title="Request new illustrations" href="http://aka.ms/dduxillu">Request new illustrations</Link>
       </div>
-      <div className="footer-link">
-        <Link title="Download guideline deck" href="#">Download guideline deck</Link>
-      </div>
     </div>
   </div>
 );
