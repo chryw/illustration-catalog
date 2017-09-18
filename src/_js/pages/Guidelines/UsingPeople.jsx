@@ -13,7 +13,6 @@ const UsingPeople = ({ match }) => (
       <Image
         src="images/guidelines-usingpeople-01.png"
         alt="Example image of using people in illustrations."
-        height={200}
       />
       <p>It is preferable to create visual solutions that do not use or rely on using people, hands or other body parts. While they may be necessary in certain contexts, we must always conform to <Link href="http://gpweb/" title="Microsoft World Readiness">Microsoft World Readiness</Link>.</p>
       <p>When the concept or process does not lend itself to clear visual solutions, do not add people who are not essential to the issue – such as someone simply holding a laptop but not demonstrating a solution. Visually obscure concepts can be addressed by alluding to the elements of the process such as gears for development, databases for storage etc. This approach results in more infographic, designed symbolic images. Avoid creating &quot;scenes&quot;, which happens when too many supporting elements are added, such as background scenery or non-essential office equipment.</p>

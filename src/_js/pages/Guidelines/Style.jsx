@@ -13,7 +13,6 @@ const Style = ({ match }) => (
       <Image
         src="images/guidelines-style-01.png"
         alt="Example image of illustration style."
-        height={200}
       />
       <p>The goal is to create images that communicate the message quickly and clearly, in a helpful supportive manner, as opposed to an image that adds nothing to the issue at hand. We want them to be friendly and helpful, suggesting to the viewer that &quot;oops there is some missing element here, and we will help you to solve it&quot;.</p>
     </div>
