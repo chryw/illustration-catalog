@@ -38,5 +38,6 @@
 {"id":38,"title":"swimlane-but-wait-theres-more","group":"vscom","area":"swimlane","keywords":["tree","node","branch","woman","people","feature","laptop","computer","smartphone","control","panel","tools","document","rocket","chart"],"description":"A woman standing on a tree of features. Used on VS Enterprise page.","publish":1},
 {"id":39,"title":"swimlane-pricing","group":"vscom","area":"swimlane","keywords":["pricing","calculator","pen","laptop"],"description":"Used on pricing pages.","publish":1},
 {"id":40,"title":"swimlane-were-in-your-neighborhood","group":"vscom","area":"swimlane","keywords":["globe","world","map","woman"],"description":"A woman standing in front of a world map. Used to represent data center available around the world.","publish":1},
-{"id":41,"title":"hero-pricing-calculator","group":"vscom","area":"hero","keywords":["pricing","calculator","pen","laptop"],"description":"Used on pricing pages. Bottom shadow removed. Use this version on dark background.","publish":1}
+{"id":41,"title":"hero-pricing-calculator","group":"vscom","area":"hero","keywords":["pricing","calculator","pen","laptop"],"description":"Used on pricing pages. Bottom shadow removed. Use this version on dark background.","publish":1},
+{"id":42,"title":"nuget-you-have-no-organizations-yet","group":"nuget","area":"zerodata","keywords":["empty","organization","team","office","desk","clock","chair"],"description":"An office space with empty chairs. Used for zero data state when users have not created organizations.","publish":1}
 ]
