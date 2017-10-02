@@ -39,5 +39,12 @@
 {"id":39,"title":"swimlane-pricing","group":"vscom","area":"swimlane","keywords":["pricing","calculator","pen","laptop"],"description":"Used on pricing pages.","publish":1},
 {"id":40,"title":"swimlane-were-in-your-neighborhood","group":"vscom","area":"swimlane","keywords":["globe","world","map","woman"],"description":"A woman standing in front of a world map. Used to represent data center available around the world.","publish":1},
 {"id":41,"title":"hero-pricing-calculator","group":"vscom","area":"hero","keywords":["pricing","calculator","pen","laptop"],"description":"Used on pricing pages. Bottom shadow removed. Use this version on dark background.","publish":1},
-{"id":42,"title":"nuget-you-have-no-organizations-yet","group":"nuget","area":"zerodata","keywords":["empty","organization","team","office","desk","clock","chair"],"description":"An office space with empty chairs. Used for zero data state when users have not created organizations.","publish":1}
+{"id":42,"title":"nuget-you-have-no-organizations-yet","group":"nuget","area":"zerodata","keywords":["empty","organization","team","office","desk","clock","chair"],"description":"An office space with empty chairs. Used for zero data state when users have not created organizations.","publish":1},
+{"id":43,"title":"general-robot-errorcode-503","group":"general","area":"common","keywords":["error","code","503","robot","server","down","broken","offline"],"description":"Used for 503 error page when server is down.","publish":1},
+{"id":44,"title":"general-robot-error","group":"general","area":"common","keywords":["error","robot","exclamation","alert","exception"],"description":"Used for generic error page.","publish":1},
+{"id":45,"title":"general-robot-errorcode-400","group":"general","area":"common","keywords":["error","code","400","robot","question"],"description":"Used for 400 error page bad request.","publish":1},
+{"id":46,"title":"general-robot-errorcode-401","group":"general","area":"common","keywords":["error","code","401","robot","unauthorized"],"description":"Used for 401 error page unauthorized.","publish":1},
+{"id":47,"title":"general-robot-errorcode-403","group":"general","area":"common","keywords":["error","code","403","robot","forbidden","permission","access"],"description":"Used for 403 error page the user does not have access.","publish":1},
+{"id":48,"title":"general-robot-errorcode-404","group":"general","area":"common","keywords":["error","code","404","robot","not","found"],"description":"Used for 404 error page.","publish":1},
+{"id":49,"title":"general-robot-errorcode-500","group":"general","area":"common","keywords":["error","code","500","robot","server","internal"],"description":"Used for 500 error page server error.","publish":1}
 ]
