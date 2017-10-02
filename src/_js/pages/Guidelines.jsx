@@ -4,8 +4,7 @@ import Overview from './Guidelines/Overview.jsx';
 import Colors from './Guidelines/Colors.jsx';
 import Style from './Guidelines/Style.jsx';
 import UsingPeople from './Guidelines/UsingPeople.jsx';
-import Size from './Guidelines/Size.jsx';
-import Placement from './Guidelines/Placement.jsx';
+import SizeAndPlacement from './Guidelines/SizeAndPlacement.jsx';
 import WorldReadiness from './Guidelines/WorldReadiness.jsx';
 
 const Guidelines = () => (
@@ -14,8 +13,7 @@ const Guidelines = () => (
     <Route path="/:id" component={Colors} />
     <Route path="/:id" component={Style} />
     <Route path="/:id" component={UsingPeople} />
-    <Route path="/:id" component={Size} />
-    <Route path="/:id" component={Placement} />
+    <Route path="/:id" component={SizeAndPlacement} />
     <Route path="/:id" component={WorldReadiness} />
   </div>
 );

@@ -1,6 +1,8 @@
 .content {
-  padding-bottom: 4rem;
+  padding-bottom: 2rem;
   @media screen and (min-width: $breakpoint-sm) {
-    padding-bottom: 2rem;
+    padding-bottom: 4rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
 }
