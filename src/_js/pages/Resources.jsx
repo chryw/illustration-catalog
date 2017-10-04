@@ -2,7 +2,7 @@ import * as React from 'react';
 
 const Resources = () => (
   <div className="resources">
-    <h3>Content TBD</h3>
+    <h2>Content TBD</h2>
   </div>
 );
 

@@ -46,5 +46,6 @@
 {"id":46,"title":"general-robot-errorcode-401","group":"general","area":"common","keywords":["error","code","401","robot","unauthorized"],"description":"Used for 401 error page unauthorized.","publish":1},
 {"id":47,"title":"general-robot-errorcode-403","group":"general","area":"common","keywords":["error","code","403","robot","forbidden","permission","access"],"description":"Used for 403 error page the user does not have access.","publish":1},
 {"id":48,"title":"general-robot-errorcode-404","group":"general","area":"common","keywords":["error","code","404","robot","not","found"],"description":"Used for 404 error page.","publish":1},
-{"id":49,"title":"general-robot-errorcode-500","group":"general","area":"common","keywords":["error","code","500","robot","server","internal"],"description":"Used for 500 error page server error.","publish":1}
+{"id":49,"title":"general-robot-errorcode-500","group":"general","area":"common","keywords":["error","code","500","robot","server","internal"],"description":"Used for 500 error page server error.","publish":1},
+{"id":50,"title":"zerodata-no-assessments","group":"zerodata","area":"compliance","keywords":["assessments","compliance","analysis","laptop","magnifier","clipboard","chart"],"description":"For assessments page zero data state.","publish":1}
 ]
