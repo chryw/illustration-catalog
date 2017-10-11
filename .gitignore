@@ -41,3 +41,6 @@ jspm_packages
 
 # generated files
 dist
+
+# system garbage
+Thumbs.db
