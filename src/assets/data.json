@@ -48,5 +48,6 @@
 {"id":48,"title":"general-robot-errorcode-404","group":"general","area":"common","keywords":["error","code","404","robot","not","found"],"description":"Used for 404 error page.","publish":1},
 {"id":49,"title":"general-robot-errorcode-500","group":"general","area":"common","keywords":["error","code","500","robot","server","internal"],"description":"Used for 500 error page server error.","publish":1},
 {"id":50,"title":"zerodata-no-assessments","group":"zerodata","area":"compliance","keywords":["assessments","compliance","analysis","laptop","magnifier","clipboard","chart"],"description":"For assessments page zero data state.","publish":1},
-{"id":51,"title":"zerodata-initializing-test-results","group":"zerodata","area":"test","keywords":["test","initialize","result","beaker","lab","flask","clock","wait","loading"],"description":"Waiting screen image when test result is being loaded.","publish":1}
+{"id":51,"title":"zerodata-initializing-test-results","group":"zerodata","area":"test","keywords":["test","initialize","result","beaker","lab","flask","clock","wait","loading"],"description":"Waiting screen image when test result is being loaded.","publish":1},
+{"id":52,"title":"zerodata-no-work-scheduled","group":"zerodata","area":"work","keywords":["work","plan","planner","calendar","journal","schedule","notebook","pencil"],"description":"No work planned in current sprint.","publish":1}
 ]
