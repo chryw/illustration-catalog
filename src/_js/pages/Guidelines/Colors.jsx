@@ -14,7 +14,7 @@ class Colors extends React.Component {
   }
 
   componentWillMount() {
-    axios.get('colors.json')
+    axios.get('data/colors.json')
     .then((response) => {
       this.setState({
         items: response.data,
