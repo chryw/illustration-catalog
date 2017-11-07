@@ -16,7 +16,6 @@ export default class Gallery extends React.Component {
     this.state = {
       items: [],
       filteredItems: [],
-      total: 0,
     };
 
     this.filterResult = (query) => {
@@ -35,10 +34,9 @@ export default class Gallery extends React.Component {
     axios.get(this.props.dataurl).then((response) => {
       const items = response.data.filter(item => item.publish === 1);
       const filteredItems = items;
-      const total = items.length;
 
       // set state
-      this.setState({ items, filteredItems, total });
+      this.setState({ items, filteredItems });
     });
   }
 
@@ -99,8 +97,4 @@ export default class Gallery extends React.Component {
 
 Gallery.propTypes = {
   dataurl: PropTypes.string.isRequired,
-};
-
-Gallery.defaultProps = {
-  limit: 0,
 };
