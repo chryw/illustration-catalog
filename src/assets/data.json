@@ -75,5 +75,6 @@
 {"id":75,"title":"swimlane-uwp-iot-core","group":"dotnet","area":"swimlane","keywords":["iot","core","drone","security","camera","microwave","thermometer","smart","home"],"description":"Common smart devices built with UWP IoT Core.","publish":1},
 {"id":76,"title":"swimlane-winform","group":"dotnet","area":"swimlane","keywords":["winform","drag","drop","designer","pencil","ruler","dialog","ui"],"description":"Drag and drop designer for building Winform applications.","publish":1},
 {"id":77,"title":"swimlane-wpf","group":"dotnet","area":"swimlane","keywords":["wpf","windows","presentation","foundation","ui","design","code","screen","monitor","computer"],"description":"A code and designer view used to represent WPF.","publish":1},
-{"id":78,"title":"swimlane-xamarin","group":"dotnet","area":"swimlane","keywords":["xamarin","mobile","cross","platform","development","phone","laptop","code"],"description":"Build cross-platform apps with Xamarin and one code base.","publish":1}
+{"id":78,"title":"swimlane-xamarin","group":"dotnet","area":"swimlane","keywords":["xamarin","mobile","cross","platform","development","phone","laptop","code"],"description":"Build cross-platform apps with Xamarin and one code base.","publish":1},
+{"id":79,"title":"swimlane-dotnet-perf-diagram","group":"dotnet","area":"swimlane","keywords":[".net","diagram","bar","chart"],"description":"A bar chart comparing requests per second of three frameworks.","publish":0}
 ]
