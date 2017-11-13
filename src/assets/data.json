@@ -77,5 +77,9 @@
 {"id":77,"title":"swimlane-wpf","group":"dotnet","area":"swimlane","keywords":["wpf","windows","presentation","foundation","ui","design","code","screen","monitor","computer"],"description":"A code and designer view used to represent WPF.","publish":1},
 {"id":78,"title":"swimlane-xamarin","group":"dotnet","area":"swimlane","keywords":["xamarin","mobile","cross","platform","development","phone","laptop","code"],"description":"Build cross-platform apps with Xamarin and one code base.","publish":1},
 {"id":79,"title":"swimlane-dotnet-perf-diagram","group":"dotnet","area":"swimlane","keywords":[".net","diagram","bar","chart"],"description":"A bar chart comparing requests per second of three frameworks.","publish":0},
-{"id":80,"title":"hero-snapshot-debugger","group":"vscom","area":"hero","keywords":["snapshot","debugger","debug","bug","magnifier","code","cloud"],"description":"Debugging code on the cloud.","publish":1}
+{"id":80,"title":"hero-snapshot-debugger","group":"vscom","area":"hero","keywords":["snapshot","debugger","debug","bug","magnifier","code","cloud"],"description":"Debugging code on the cloud.","publish":1},
+{"id":81,"title":"swimlane-collaborative-debugging","group":"vscom","area":"swimlane","keywords":["collaborate","debug","teamwork","hands","plan","draw","ruler","design","pen","triangle","bug","magnifier","lightbulb"],"description":"Collaborative debugging.","publish":1},
+{"id":82,"title":"swimlane-collaborative-editing","group":"vscom","area":"swimlane","keywords":["collaborate","editor","code","people"],"description":"Collaborative code editing.","publish":1},
+{"id":83,"title":"swimlane-shared-full-context","group":"vscom","area":"swimlane","keywords":["share","context","code","editor","environment","computer","laptop"],"description":"Share code and full context.","publish":1},
+{"id":84,"title":"swimlane-real-time-sharing","group":"vscom","area":"swimlane","keywords":["people","work","team","office","real","time","code","developer","clock"],"description":"Real-time sharing with your tools.","publish":1}
 ]
