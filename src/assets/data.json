@@ -81,5 +81,8 @@
 {"id":81,"title":"swimlane-collaborative-debugging","group":"vscom","area":"swimlane","keywords":["collaborate","debug","teamwork","hands","plan","draw","ruler","design","pen","triangle","bug","magnifier","lightbulb"],"description":"Collaborative debugging.","publish":1},
 {"id":82,"title":"swimlane-collaborative-editing","group":"vscom","area":"swimlane","keywords":["collaborate","editor","code","people"],"description":"Collaborative code editing.","publish":1},
 {"id":83,"title":"swimlane-shared-full-context","group":"vscom","area":"swimlane","keywords":["share","context","code","editor","environment","computer","laptop"],"description":"Share code and full context.","publish":1},
-{"id":84,"title":"swimlane-real-time-sharing","group":"vscom","area":"swimlane","keywords":["people","work","team","office","real","time","code","developer","clock"],"description":"Real-time sharing with your tools.","publish":1}
+{"id":84,"title":"swimlane-real-time-sharing","group":"vscom","area":"swimlane","keywords":["people","work","team","office","real","time","code","developer","clock"],"description":"Real-time sharing with your tools.","publish":1},
+{"id":85,"title":"blog-rocket-launch-timeline","group":"vscode","area":"blog","keywords":["rocket","release","launch","cloud","timeline"],"description":"Rocket launch timeline.","publish":1},
+{"id":86,"title":"blog-vscode-metrics","group":"vscom","area":"blog","keywords":["metrics"],"description":"Download and install metrics of Visual Studio Code.","publish":1},
+{"id":87,"title":"blog-vscode-roadmap","group":"vscom","area":"blog","keywords":["roadmap","car","road","milestone","pin","timeline"],"description":"A roadmap showing Visual Studio Code major release milestones","publish":1}
 ]
