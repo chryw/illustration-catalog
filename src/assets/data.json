@@ -84,5 +84,6 @@
 {"id":84,"title":"swimlane-real-time-sharing","group":"vscom","area":"swimlane","keywords":["people","work","team","office","real","time","code","developer","clock"],"description":"Real-time sharing with your tools.","publish":1},
 {"id":85,"title":"blog-rocket-launch-timeline","group":"vscode","area":"blog","keywords":["rocket","release","launch","cloud","timeline"],"description":"Rocket launch timeline.","publish":1},
 {"id":86,"title":"blog-vscode-metrics","group":"vscom","area":"blog","keywords":["metrics"],"description":"Download and install metrics of Visual Studio Code.","publish":1},
-{"id":87,"title":"blog-vscode-roadmap","group":"vscom","area":"blog","keywords":["roadmap","car","road","milestone","pin","timeline"],"description":"A roadmap showing Visual Studio Code major release milestones","publish":1}
+{"id":87,"title":"blog-vscode-roadmap","group":"vscom","area":"blog","keywords":["roadmap","car","road","milestone","pin","timeline"],"description":"A roadmap showing Visual Studio Code major release milestones","publish":1},
+{"id":88,"title":"swimlane-monogame-game-development","group":"dotnet","area":"swimlane","keywords":["monogame","game","development","screen","platform","psvita","windows","mac","video","game"],"description":"Cross platform game development with MonoGame engine.","publish":1}
 ]
