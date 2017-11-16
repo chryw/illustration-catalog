@@ -2,11 +2,9 @@ import * as React from 'react';
 import Gallery from './Library/Gallery.jsx';
 
 const Library = () => (
-  <div className="library">
-    <Gallery
-      dataurl="data/data.json"
-    />
-  </div>
+  <Gallery
+    dataurl="data/data.json"
+  />
 );
 
 export default Library;

@@ -1,10 +1,16 @@
-.search {
-  margin: 1rem 1% 0;
-  @media screen and (min-width: $breakpoint-sm) {
-    width: 300px;
-  }
+.gallery {
+  position: relative;
+  height: 100%;
+  overflow: hidden;
 }
-
+.gallery-search {
+  padding: 1%;
+}
+.gallery-list {
+  clear: both;
+  overflow-y: scroll;
+  height: inherit;
+}
 .gallery-item {
   float: left;
   padding: 1%;

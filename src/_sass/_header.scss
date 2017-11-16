@@ -1,11 +1,7 @@
 .header {
   @include box-shadow;
-  height: 4rem;
   padding: 1rem 2rem;
-  position: fixed;
-  top: 0;
-  width: inherit;
-  z-index: 9000;
+  height: 7vh;
 }
 
 .header-title,

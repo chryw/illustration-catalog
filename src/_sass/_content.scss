@@ -1,8 +1,7 @@
 .content {
-  padding-bottom: 2rem;
-  @media screen and (min-width: $breakpoint-sm) {
-    padding-bottom: 4rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
+  height: inherit;
+  overflow-y: auto;
+  @media screen and (min-width: $breakpoint-md) {
+    padding: 1rem 2rem;
   }
 }
