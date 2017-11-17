@@ -18,7 +18,7 @@ ReactDOM.render((
       <div className="ms-Grid-row ms-bgColor-white ms-fontColor-black body">
         <SiteNav />
         <div className="content ms-Grid-col ms-sm12 ms-md10 ms-bgColor-neutralLight">
-          <Route exact="exact" path="/" component={Library} />
+          <Route exact path="/" component={Library} />
           <Route path="/library" component={Library} />
           <Route path="/guidelines" component={Guidelines} />
           <Route path="/resources" component={Resources} />

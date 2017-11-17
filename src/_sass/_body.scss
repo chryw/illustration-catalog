@@ -1,4 +1,7 @@
 .body {
   position: relative;
-  height: 86vh;
+  height: 85vh;
+  @media screen and (min-width: $breakpoint-sm) {
+    height: 90vh;
+  }
 }

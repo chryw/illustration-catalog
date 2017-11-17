@@ -1,13 +1,14 @@
 .header {
-  height: 6vh;
-  padding-left: 3rem;
-  padding-top: 1rem;
-  overflow: hidden;
+  height: 5vh;
   @include link($color-white);
 }
 
-@media screen and (min-width: $breakpoint-md) {
-  .header-title {
+.header-title {
+  height: 5vh;
+  line-height: 5vh;
+  margin-left: 3rem;
+  @media screen and (min-width: $breakpoint-md) {
     font-size: 1.2rem;
+    margin-left: 2rem;
   }
 }
