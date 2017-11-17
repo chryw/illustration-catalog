@@ -1,10 +1,15 @@
 .footer {
+<<<<<<< HEAD
   height: 10vh;
   padding: 1rem 2rem;
   @include link($color-white);
   @media screen and (min-width: $breakpoint-sm) {
     height: 6vh;
   }
+=======
+  padding: 2rem;
+  height: 7vh;
+>>>>>>> db2c3b372054c7cbb48859553dbc9cbc07136b24
 }
 
 .footer-copyright {

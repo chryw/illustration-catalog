@@ -43,7 +43,7 @@ GalleryItem.propTypes = {
 
 GalleryItem.defaultProps = {
   description: 'Refer to illustration title.',
-  keywords: 'Refer to illustration title',
+  keywords: ['Refer to illustration title'],
 };
 
 export default GalleryItem;
