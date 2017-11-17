@@ -1,5 +1,7 @@
 .body {
-  margin-top: 4rem;
-  min-height: 100vh;
   position: relative;
+  height: 84vh;
+  @media screen and (min-width: $breakpoint-sm) {
+    height: 88vh;
+  }
 }

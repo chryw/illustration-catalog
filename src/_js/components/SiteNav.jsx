@@ -5,42 +5,50 @@ class SiteNav extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      active: false,
+      expanded: false,
     };
-    this.onClickHandler = this.onClickHandler.bind(this);
+    this.toggleNavMenu = this.toggleNavMenu.bind(this);
   }
 
-  onClickHandler() {
+  toggleNavMenu() {
     this.setState({
-      active: !this.state.active,
+      expanded: !this.state.expanded,
     });
   }
 
   render() {
     return (
-      <Nav
-        onLinkClick={this.onClickHandler}
-        className={this.state.active ? 'active' : ''}
-        groups={[
-          {
-            links:
-            [
-              {
-                name: 'Library',
-                url: '#/library',
-              },
-              {
-                name: 'Guidelines',
-                url: '#/guidelines',
-              },
-              {
-                name: 'Resources',
-                url: '#/resources',
-              },
-            ],
-          },
-        ]}
-      />
+      <div className="site-nav ms-Grid-col ms-sm12 ms-md2">
+        <button
+          className="nav-button"
+          onClick={this.toggleNavMenu}
+        >
+          <i className="ms-Icon ms-Icon--GlobalNavButton" />
+        </button>
+        <Nav
+          onLinkClick={this.toggleNavMenu}
+          className={`nav-menu ${this.state.expanded ? 'expanded' : 'collapsed'}`}
+          groups={[
+            {
+              links:
+              [
+                {
+                  name: 'Library',
+                  url: '#/library',
+                },
+                {
+                  name: 'Guidelines',
+                  url: '#/guidelines',
+                },
+                {
+                  name: 'Resources',
+                  url: '#/resources',
+                },
+              ],
+            },
+          ]}
+        />
+      </div>
     );
   }
 }

@@ -1,37 +1,18 @@
 .footer {
-  padding: 2rem;
+  height: 10vh;
+  padding: 1rem 2rem;
+  @include link($color-white);
+  @media screen and (min-width: $breakpoint-sm) {
+    height: 6vh;
+  }
 }
+
 .footer-copyright {
   opacity: .5;
 }
 
 .footer-links {
-  @include link($color: $color-white);
-  margin-top: 1rem;
-}
-
-
-@media screen and (min-width: $breakpoint-md) {
-  .footer-copyright,
-  .footer-links {
-    display: inline-block;
-  }
-  .footer-links {
-    float: right;
-    margin-top: 0;
-  }
-  .footer-link {
-    display: inline-block;
-    &:not(:first-child) {
-      &:before {
-        display: inline-block;
-        content: '';
-        width: 1px;
-        height: 1rem;
-        background-color: $color-white;
-        margin-left: 1rem;
-        margin-right: 1rem;
-      }
-    }
+  @media screen and (min-width: $breakpoint-sm) {
+    text-align: right;
   }
 }

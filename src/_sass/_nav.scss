@@ -1,31 +1,35 @@
-.nav-menuicon {
-  height: 2rem;
-  line-height: 2rem;
-  font-size: 1.5rem;
-  margin-right: 12px;
-}
-
-@media screen and (min-width: $breakpoint-sm) {
-  .nav-menuicon {
+.nav-button {
+  font-size: 1.2rem;
+  height: 1.2rem;
+  width: 1.2rem;
+  line-height: 1.2rem;
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  color: $color-white;
+  border: none;
+  background: none;
+  outline: none;
+  @media screen and (min-width: $breakpoint-sm) {
     display: none;
   }
 }
-
-@media screen and (max-width: $breakpoint-md) {
-  .nav-menu {
-    background-color: $color-white;
+.nav-menu {
+  padding: 0;
+  .ms-Nav-groupContent {
+    margin-bottom: 0;
+  }
+  @media screen and (max-width: $breakpoint-sm) {
+    position: fixed;
+    top: 6vh;
     left: 0;
-    position: absolute;
-    top: 0;
-    z-index: 8000;
     @include box-shadow;
-
-    .ms-Nav {
-      overflow: hidden;
-      height: 0;
-      &.active {
-        height: auto;
-      }
+    width: 100%;
+    z-index: 9000;
+    background-color: $color-white;
+    &.collapsed {
+      display: none;
+      opacity: 0;
     }
   }
 }

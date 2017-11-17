@@ -16,11 +16,9 @@ ReactDOM.render((
     <div className="ms-Grid wrapper">
       <Header />
       <div className="ms-Grid-row ms-bgColor-white ms-fontColor-black body">
-        <div className="nav-menu ms-Grid-col ms-sm12 ms-md2">
-          <SiteNav />
-        </div>
+        <SiteNav />
         <div className="content ms-Grid-col ms-sm12 ms-md10 ms-bgColor-neutralLight">
-          <Route exact path="/" component={Library} />
+          <Route exact="exact" path="/" component={Library} />
           <Route path="/library" component={Library} />
           <Route path="/guidelines" component={Guidelines} />
           <Route path="/resources" component={Resources} />
@@ -28,5 +26,4 @@ ReactDOM.render((
       </div>
       <Footer />
     </div>
-  </HashRouter>
-), document.getElementById('App'));
+  </HashRouter>), document.getElementById('App'));

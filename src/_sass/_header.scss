@@ -1,24 +1,13 @@
 .header {
-  @include box-shadow;
-  height: 4rem;
-  padding: 1rem 2rem;
-  position: fixed;
-  top: 0;
-  width: inherit;
-  z-index: 9000;
+  height: 6vh;
+  padding-left: 3rem;
+  padding-top: 1rem;
+  overflow: hidden;
+  @include link($color-white);
 }
 
-.header-title,
-{
-  display: inline-block;
-}
-
-.header-title {
-  @include link($color: $color-white, $padding: 1rem);
-}
-
-.header-brand {
-  font-size: 1.5rem;
-  font-weight: 100;
-  line-height: 2rem;
+@media screen and (min-width: $breakpoint-md) {
+  .header-title {
+    font-size: 1.2rem;
+  }
 }

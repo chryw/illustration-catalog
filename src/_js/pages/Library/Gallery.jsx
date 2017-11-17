@@ -62,34 +62,36 @@ export default class Gallery extends React.Component {
 
     return (
       <div className="gallery">
-        <div className="search">
+        <div className="gallery-search">
           <TextField label={`Filter by title or keywords ${resultCountText}`} onBeforeChange={this.filterResult} />
         </div>
-        <FocusZone>
-          <List
-            className="gallery-body"
-            items={this.state.filteredItems}
-            renderedWindowsAhead={4}
-            getItemCountForPage={this.getItemCountForPage}
-            getPageHeight={this.getPageHeight}
-            onRenderCell={item => (
-              <div
-                className="gallery-item"
-                style={{
-                  width: `${100 / this.columnCount}%`,
-                  height: `${MAX_ROW_HEIGHT}px`,
-                }}
-              >
-                <GalleryItem
-                  title={item.title}
-                  description={item.description}
-                  keywords={item.keywords}
-                  urlprefix="https://vsicons.blob.core.windows.net/illustrations"
-                />
-              </div>
-            )}
-          />
-        </FocusZone>
+        <div className="gallery-list">
+          <FocusZone>
+            <List
+              className="gallery-body"
+              items={this.state.filteredItems}
+              renderedWindowsAhead={4}
+              getItemCountForPage={this.getItemCountForPage}
+              getPageHeight={this.getPageHeight}
+              onRenderCell={item => (
+                <div
+                  className="gallery-item"
+                  style={{
+                    width: `${100 / this.columnCount}%`,
+                    height: `${MAX_ROW_HEIGHT}px`,
+                  }}
+                >
+                  <GalleryItem
+                    title={item.title}
+                    description={item.description}
+                    keywords={item.keywords}
+                    urlprefix="https://vsicons.blob.core.windows.net/illustrations"
+                  />
+                </div>
+              )}
+            />
+          </FocusZone>
+        </div>
       </div>
     );
   }

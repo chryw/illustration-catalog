@@ -86,5 +86,6 @@
 {"id":86,"title":"blog-vscode-metrics","group":"vscom","area":"blog","keywords":["metrics"],"description":"Download and install metrics of Visual Studio Code.","publish":1},
 {"id":87,"title":"blog-vscode-roadmap","group":"vscom","area":"blog","keywords":["roadmap","car","road","milestone","pin","timeline"],"description":"A roadmap showing Visual Studio Code major release milestones","publish":1},
 {"id":88,"title":"swimlane-monogame-game-development","group":"dotnet","area":"swimlane","keywords":["monogame","game","development","screen","platform","psvita","windows","mac","video","game"],"description":"Cross platform game development with MonoGame engine.","publish":1},
-{"id":89,"title":"zerodata-you-have-no-project","group":"zerodata","area":"account","keywords":["project","plan","work","briefcase","pencil","document","triangle","ruler"],"description":"Used in account page when you have no projects yet.","publish":1}
+{"id":89,"title":"zerodata-you-have-no-project","group":"zerodata","area":"account","keywords":["project","plan","work","briefcase","pencil","document","triangle","ruler"],"description":"Used in account page when you have no projects yet.","publish":1},
+{"id":90,"title":"hero-vsts-join-our-team","group":"vscom","area":"hero","keywords":["vsts","team","work","ui","join","us","people","chart","dialog","gear"],"description":"Used in VSTS jobs page hero section.","publish":1}
 ]
