@@ -1,15 +1,9 @@
 .header {
-<<<<<<< HEAD
   height: 6vh;
   padding-left: 3rem;
   padding-top: 1rem;
   overflow: hidden;
   @include link($color-white);
-=======
-  @include box-shadow;
-  padding: 1rem 2rem;
-  height: 7vh;
->>>>>>> db2c3b372054c7cbb48859553dbc9cbc07136b24
 }
 
 @media screen and (min-width: $breakpoint-md) {
