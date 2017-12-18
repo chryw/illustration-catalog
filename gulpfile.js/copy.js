@@ -4,7 +4,7 @@ const merge = require('merge-stream');
 gulp.task('copy', () => {
   const json = gulp.src('src/assets/*.json')
       .pipe(gulp.dest('dist/data'));
-  const files = gulp.src('src/files/**')
+  const files = gulp.src('src/assets/files/**')
       .pipe(gulp.dest('dist/files'));
   const images = gulp.src('src/images/**')
       .pipe(gulp.dest('dist/images'));
