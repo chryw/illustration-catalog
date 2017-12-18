@@ -12,7 +12,7 @@ const Resources = () => (
     <h3>Common elements</h3>
     <p>The below deck includes some common elements such as people, devices, tools and technology related objects. You can use these elements to quickly build consistent and professional looking illustrations.</p>
     <ul>
-      <li><a href="#">Common element deck (PowerPoint deck with vector objects)</a></li>
+      <li><a href="files/IllustrationCommonElementDeck.pptx">Illustration Common Element Deck (PowerPoint deck with vector objects)</a></li>
     </ul>
   </div>
 );
