@@ -101,5 +101,7 @@
 {"id":101,"title":"zerodata-analytics-views-error","group":"zerodata","area":"analytics","keywords":["analytics","view","chart","people","error","exclamation"],"description":"Used in Analtyics Views when view verification fails.","publish":1},
 {"id":102,"title":"zerodata-analytics-views-valid","group":"zerodata","area":"analytics","keywords":["analytics","view","chart","people","valid","passing","checkmark"],"description":"Used in Analytics Views when view verification passes.","publish":1},
 {"id":103,"title":"zerodata-no-analytics-views","group":"zerodata","area":"analytics","keywords":["analytics","view","screen","laptop","chart","pencil","clipboard"],"description":"Used for zero data status in Analytics Views.","publish":1},
-{"id":104,"title":"zerodata-preparing-data","group":"zerodata","area":"analytics","keywords":["prepare","data","machine","analytics","cloud","chart","clock","lightbulb"],"description":"Used in Analytics Views when preparing data.","publish":1}
+{"id":104,"title":"zerodata-preparing-data","group":"zerodata","area":"analytics","keywords":["prepare","data","machine","analytics","cloud","chart","clock","lightbulb"],"description":"Used in Analytics Views when preparing data.","publish":1},
+{"id":104,"title":"socialmedia-devops-youtube-header","group":"socialmedia","area":"devops","keywords":["devops","agile","sprint","process","build","release","ship","rocket","assembly","line","truck","forklift","cloud","building","city"],"description":"Used for social media account header.","publish":1},
+{"id":104,"title":"socialmedia-devops-avatar","group":"socialmedia","area":"devops","keywords":["devops","agile","sprint","process","build","release","ship","rocket"],"description":"Used for social media account avatar.","publish":1}
 ]
