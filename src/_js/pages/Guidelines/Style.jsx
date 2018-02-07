@@ -9,6 +9,7 @@ const Style = ({ match }) => (
     <div className="anchor" id="style" />
     <h2>Style<NavLink to={`${match.params.id}#style`} title="Style">#</NavLink></h2>
     <div>
+      <p>The bottom line is to follow <a href="https://microsoft.sharepoint.com/teams/BrandCentral/Pages/The-Microsoft-brand-Core-elements-Illustration.aspx">Microsoft Illustration guidelines</a>.</p>
       <p>The style for illustrations is clear and clean. As a rule we try to communicate the message in a simple way – with one main element and with one or two supporting elements wherever possible. All elements should be essential to the message. If you can delete an element and still communicate the concept, then it doesn’t need the extra element and will probably communicate more easily without it. We don’t add elements for decorative purposes.</p>
       <p>The goal is to create images that communicate the message quickly and clearly, in a helpful supportive manner, as opposed to an image that adds nothing to the issue at hand. We want them to be friendly and helpful, suggesting to the viewer that &quot;oops there is some missing element here, and we will help you to solve it&quot;.</p>
       <p>The below illustration has too many small elements trying to cover multiple aspects of the product. The illustration ended up loosing focus and not conveying any meaningful topic. Nor it makes the illustration visually appealing to put many abstract icons loosely instead of creating a concrete object or scene that connects to real-life experience.</p>
