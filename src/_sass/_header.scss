@@ -1,11 +1,11 @@
 .header {
-  height: 5vh;
+  height: 8vh;
   @include link($color-white);
 }
 
 .header-title {
-  height: 5vh;
-  line-height: 5vh;
+  height: 8vh;
+  line-height: 8vh;
   margin-left: 3rem;
   @media screen and (min-width: $breakpoint-md) {
     font-size: 1.2rem;

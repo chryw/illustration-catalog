@@ -1,11 +1,12 @@
 .footer {
-  height: 10vh;
+  height: 12vh;
   @include link($color-white);
   padding: 1rem;
   @media screen and (min-width: $breakpoint-sm) {
-    height: 5vh;
+    height: 8vh;
   }
 }
+
 .footer-copyright {
   opacity: .5;
 }
