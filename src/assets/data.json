@@ -121,5 +121,9 @@
 {"id":121,"title":"swimlane-any-language","group":"vscom","area":"swimlane","keywords":["programming","language","keyboard","mouse","chat","bubble","callout","symbols"],"description":"Used for 3 column swimlane on DevOps page.","publish":1},
 {"id":122,"title":"swimlane-deploy-cross-platform","group":"vscom","area":"swimlane","keywords":["deploy","platform","device","parachute","cloud","mobile","phone","laptop","computer"],"description":"Used for 3 column swimlane on DevOps page.","publish":1},
 {"id":123,"title":"swimlane-swiss-army-knife","group":"vscom","area":"swimlane","keywords":["tool","utility","toolset","toolkit","all-in-one","swiss","army","knife"],"description":"Used for 3 column swimlane on DevOps page.","publish":1},
-{"id":124,"title":"hero-devops-conductor","group":"vscom","area":"hero","keywords":["devops","cycle","plan","work","code","version","control","build","release","conductor","people"],"description":"Used for DevOps page hero.","publish":1}
+{"id":124,"title":"hero-devops-conductor","group":"vscom","area":"hero","keywords":["devops","cycle","plan","work","code","version","control","build","release","conductor","people"],"description":"Used for DevOps page hero.","publish":1},
+{"id":125,"title":"blog-package-upstream-diagram-1","group":"docs","area":"diagram","keywords":["package","box","nuget","feed","upstream","diagram"],"description":"Docs diagram to illustrate upstream source concepts.","publish":1},
+{"id":126,"title":"blog-package-upstream-diagram-2","group":"docs","area":"diagram","keywords":["package","box","nuget","feed","upstream","diagram"],"description":"Docs diagram to illustrate upstream source concepts.","publish":1},
+{"id":127,"title":"blog-package-upstream-diagram-3","group":"docs","area":"diagram","keywords":["package","box","nuget","feed","upstream","diagram"],"description":"Docs diagram to illustrate upstream source concepts.","publish":1},
+{"id":128,"title":"blog-package-upstream-diagram-4","group":"docs","area":"diagram","keywords":["package","box","nuget","feed","upstream","diagram"],"description":"Docs diagram to illustrate upstream source concepts.","publish":1}
 ]
