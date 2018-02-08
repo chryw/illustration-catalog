@@ -6,13 +6,8 @@ const Resources = () => (
     <h3>Adobe Illustrator templates</h3>
     <p>Color palette is included in the templates.</p>
     <ul>
-      <li><a href="files/VSCOMIllustrationsTemplate_100artboards.ait">Illustration template for vs.com (100 artboards)</a></li>
-      <li><a href="files/VSTSIllustrationsTemplate_100artboards.ait">Illustration template for VSTS (100 artboards)</a></li>
-    </ul>
-    <h3>Common elements</h3>
-    <p>The below deck includes some common elements such as people, devices, tools and technology related objects. You can use these elements to quickly build consistent and professional looking illustrations.</p>
-    <ul>
-      <li><a href="files/IllustrationCommonElementDeck.pptx">Illustration Common Element Deck (PowerPoint deck with vector objects)</a></li>
+      <li><a href="files/vscom-template.ait" download>Illustration template for vs.com (100 artboards)</a></li>
+      <li><a href="files/vsts-template.ait" download>Illustration template for VSTS (100 artboards)</a></li>
     </ul>
   </div>
 );
