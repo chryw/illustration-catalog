@@ -130,5 +130,6 @@
 {"id":130,"title":"willow-rocket-get-ready","group":"willow","area":"willow","keywords":["rocket","launch","space","people","start","ready","go"],"description":"VS Installer banner art shows up when installation is successful.","publish":1},
 {"id":131,"title":"willow-bike-adventure","group":"willow","area":"willow","keywords":["bike","car","people","adventure","ready","go"],"description":"VS Installer banner art shows up when installation is successful.","publish":1},
 {"id":132,"title":"willow-bike-adventure-issue","group":"willow","area":"willow","keywords":["bike","car","people","adventure","ready","go","issue"],"description":"VS Installer banner art shows up when installation is successful but there are minor issues.","publish":1},
-{"id":133,"title":"zerodata-no-dashboard","group":"zerodata","area":"dashboard","keywords":["dashboard","empty","chart","graph","status","people"],"description":"Used for no dashboard state.","publish":1}
+{"id":133,"title":"zerodata-no-dashboard","group":"zerodata","area":"dashboard","keywords":["dashboard","empty","chart","graph","status","people"],"description":"Used for no dashboard state.","publish":1},
+{"id":134,"title":"docs-gvfs-architecture","group":"docs","area":"diagram","keywords":["gvfs","git","virtual","file","system","architecture"],"description":"Docs diagram for GVFS architecture.","publish":1}
 ]
