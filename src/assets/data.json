@@ -125,5 +125,10 @@
 {"id":125,"title":"blog-package-upstream-diagram-1","group":"docs","area":"diagram","keywords":["package","box","nuget","feed","upstream","diagram"],"description":"Docs diagram to illustrate upstream source concepts.","publish":1},
 {"id":126,"title":"blog-package-upstream-diagram-2","group":"docs","area":"diagram","keywords":["package","box","nuget","feed","upstream","diagram"],"description":"Docs diagram to illustrate upstream source concepts.","publish":1},
 {"id":127,"title":"blog-package-upstream-diagram-3","group":"docs","area":"diagram","keywords":["package","box","nuget","feed","upstream","diagram"],"description":"Docs diagram to illustrate upstream source concepts.","publish":1},
-{"id":128,"title":"blog-package-upstream-diagram-4","group":"docs","area":"diagram","keywords":["package","box","nuget","feed","upstream","diagram"],"description":"Docs diagram to illustrate upstream source concepts.","publish":1}
+{"id":128,"title":"blog-package-upstream-diagram-4","group":"docs","area":"diagram","keywords":["package","box","nuget","feed","upstream","diagram"],"description":"Docs diagram to illustrate upstream source concepts.","publish":1},
+{"id":129,"title":"willow-car-racing-get-ready","group":"willow","area":"willow","keywords":["car","racing","people","start","ready","go"],"description":"VS Installer banner art shows up when installation is successful.","publish":1},
+{"id":130,"title":"willow-rocket-get-ready","group":"willow","area":"willow","keywords":["rocket","launch","space","people","start","ready","go"],"description":"VS Installer banner art shows up when installation is successful.","publish":1},
+{"id":131,"title":"willow-bike-adventure","group":"willow","area":"willow","keywords":["bike","car","people","adventure","ready","go"],"description":"VS Installer banner art shows up when installation is successful.","publish":1},
+{"id":132,"title":"willow-bike-adventure-issue","group":"willow","area":"willow","keywords":["bike","car","people","adventure","ready","go","issue"],"description":"VS Installer banner art shows up when installation is successful but there are minor issues.","publish":1},
+{"id":133,"title":"zerodata-no-dashboard","group":"zerodata","area":"dashboard","keywords":["dashboard","empty","chart","graph","status","people"],"description":"Used for no dashboard state.","publish":1}
 ]
