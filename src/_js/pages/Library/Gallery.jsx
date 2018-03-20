@@ -5,7 +5,7 @@ import * as axios from 'axios';
 import GalleryItem from './GalleryItem.jsx';
 
 const ROWS_PER_PAGE = 3;
-const MAX_ROW_HEIGHT = 250;
+const MAX_ROW_HEIGHT = 300;
 
 export default class Gallery extends React.Component {
   constructor() {
@@ -78,14 +78,13 @@ export default class Gallery extends React.Component {
                   className="gallery-item"
                   style={{
                     width: `${100 / this.columnCount}%`,
-                    height: `${MAX_ROW_HEIGHT}px`,
+                    height: `${this.columnWidth}px`,
                   }}
                 >
                   <GalleryItem
                     title={item.title}
                     description={item.description}
                     keywords={item.keywords}
-                    urlprefix="https://vsicons.blob.core.windows.net/illustrations"
                   />
                 </div>
               )}

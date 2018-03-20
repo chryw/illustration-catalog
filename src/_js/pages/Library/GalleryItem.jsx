@@ -13,7 +13,7 @@ const GalleryItem = props => (
   <div className="gallery-item-wrapper">
     <div className="gallery-item-thumbnail">
       <Image
-        src={`${props.urlprefix}/${props.title}.png`}
+        src={`illustrations/${props.title}.svg`}
         alt={`${formatTitle(props.title)}`}
       />
     </div>
@@ -26,8 +26,8 @@ const GalleryItem = props => (
       </div>
       <div className="gallery-item-download">
         <span className="icon ms-Icon ms-Icon--Download" />
-        <Link title="SVG" href={`${props.urlprefix}/${props.title}.svg`} download>SVG</Link>
-        <Link title="PNG" href={`${props.urlprefix}/${props.title}.png`} download>PNG</Link>
+        <Link title="SVG" href={`illustrations/${props.title}.svg`} download>SVG</Link>
+        <Link title="PNG" href={`illustrations/${props.title}.png`} download>PNG</Link>
       </div>
     </div>
   </div>

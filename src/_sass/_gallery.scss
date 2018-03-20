@@ -1,78 +1,103 @@
 .gallery {
-  position: relative;
   height: 100%;
-  padding-bottom: 6rem;
   overflow: hidden;
+  padding-bottom: 6rem;
+  position: relative;
 }
+
 .gallery-search {
   padding: 1%;
 }
+
 .gallery-list {
   clear: both;
-  overflow-y: scroll;
   height: inherit;
+  overflow-y: scroll;
 }
+
 .gallery-item {
   float: left;
+  overflow: hidden;
   padding: 1%;
   position: relative;
-  overflow: hidden;
 }
 
 .gallery-item-wrapper {
   background-color: $color-white;
-  position: relative;
-  height: 100%;
   box-shadow: 0 1px 2px fade-out($color-black, .9);
+  height: 100%;
+  padding: .5rem;
+  position: relative;
+
   &:hover,
   &:focus {
     .gallery-item-meta {
-      display: block;
+      max-height: none;
+      opacity: 1;
+      padding: 1rem;
     }
   }
 }
 
 .gallery-item-thumbnail {
-  padding: 2%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 100%;
+  background-image:
+    linear-gradient(45deg, $color-neutralLight 25%, transparent 25%),
+    linear-gradient(-45deg, $color-neutralLight 25%, transparent 25%),
+    linear-gradient(45deg, transparent 75%, $color-neutralLight 75%),
+    linear-gradient(-45deg, transparent 75%, $color-neutralLight 75%);
+  background-position: 0 0, 0 5px, 5px -5px, -5px 0px;
+  background-size: 10px 10px;
+  height: 90%;
+  overflow: hidden;
+  position: relative;
+  width: inherit;
+
   img {
     display: block;
-    height: auto;
     left: 50%;
-    max-height: 150px;
-    max-width: 100%;
+    max-height: 100%;
     position: absolute;
     top: 50%;
     transform: translate(-50%, -50%);
-    width: auto;
-    height: auto;
   }
 }
 
 .gallery-item-meta {
   background-color: $color-white;
-  overflow: hidden;
+  color: $color-neutralPrimary;
   height: 100%;
-  width: 100%;
-  padding: 1rem;
-  font-size: .8rem;
-  display: none;
+  left: 0;
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
   position: absolute;
   top: 0;
-  left: 0;
+  transition: opacity ease .3s;
+  width: 100%;
 }
 
 .gallery-item-title {
-  margin: 0;
+  font-weight: 600;
+  margin-top: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.gallery-item-description {
+  display: none;
+  height: 65%;
+  overflow: hidden;
+  width: 100%;
+  @media screen and (min-width: $breakpoint-md) {
+    display: block;
+  }
 }
 
 .gallery-item-download {
-  position: absolute;
   bottom: 1rem;
+  position: absolute;
+
   &>* {
     &:not(:first-child) {
       padding-left: .2rem;
