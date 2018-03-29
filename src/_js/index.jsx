@@ -1,3 +1,4 @@
+import { initializeIcons } from '@uifabric/icons';
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 import * as promise from 'es6-promise';
@@ -9,7 +10,9 @@ import Library from './pages/Library.jsx';
 import Guidelines from './pages/Guidelines.jsx';
 import Resources from './pages/Resources.jsx';
 
+
 promise.polyfill();
+initializeIcons();
 
 ReactDOM.render((
   <HashRouter basename="/">

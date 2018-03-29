@@ -82,9 +82,7 @@ export default class Gallery extends React.Component {
                   }}
                 >
                   <GalleryItem
-                    title={item.title}
-                    description={item.description}
-                    keywords={item.keywords}
+                    {...item}
                   />
                 </div>
               )}

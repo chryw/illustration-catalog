@@ -19,38 +19,33 @@
   float: left;
   overflow: hidden;
   padding: 1%;
-  position: relative;
 }
 
 .gallery-item-wrapper {
   background-color: $color-white;
   box-shadow: 0 1px 2px fade-out($color-black, .9);
+  display: flex;
+  flex-direction: column;
   height: 100%;
   padding: .5rem;
+}
+
+.gallery-item-thumbnail {
+  cursor: pointer;
+  flex-grow: 2;
+  outline: none;
+  overflow: hidden;
   position: relative;
+  width: inherit;
 
   &:hover,
   &:focus {
     .gallery-item-meta {
-      max-height: none;
+      max-height: 100%;
       opacity: 1;
       padding: 1rem;
     }
   }
-}
-
-.gallery-item-thumbnail {
-  background-image:
-    linear-gradient(45deg, $color-neutralLight 25%, transparent 25%),
-    linear-gradient(-45deg, $color-neutralLight 25%, transparent 25%),
-    linear-gradient(45deg, transparent 75%, $color-neutralLight 75%),
-    linear-gradient(-45deg, transparent 75%, $color-neutralLight 75%);
-  background-position: 0 0, 0 5px, 5px -5px, -5px 0px;
-  background-size: 10px 10px;
-  height: 90%;
-  overflow: hidden;
-  position: relative;
-  width: inherit;
 
   img {
     display: block;
@@ -72,11 +67,12 @@
   overflow: hidden;
   position: absolute;
   top: 0;
-  transition: opacity ease .3s;
-  width: 100%;
+  transition: opacity ease .2s;
+  width: inherit;
 }
 
 .gallery-item-title {
+  font-size: 1rem;
   font-weight: 600;
   margin-top: 0;
   overflow: hidden;
@@ -94,13 +90,43 @@
   }
 }
 
-.gallery-item-download {
-  bottom: 1rem;
-  position: absolute;
+.gallery-item-toolbar {
+  display: flex;
+  margin-top: .5rem;
 
   &>* {
     &:not(:first-child) {
       padding-left: .2rem;
     }
+  }
+}
+
+.gallery-item-detail-thumbnail {
+  margin-top: 1rem;
+  padding: 2rem;
+
+  img {
+    max-height: 50vh;
+  }
+}
+
+.gallery-item-thumbnail,
+.gallery-item-detail-thumbnail {
+  &.checker {
+    background-image:
+    linear-gradient(45deg, $color-neutralLight 25%, transparent 25%),
+    linear-gradient(-45deg, $color-neutralLight 25%, transparent 25%),
+    linear-gradient(45deg, transparent 75%, $color-neutralLight 75%),
+    linear-gradient(-45deg, transparent 75%, $color-neutralLight 75%);
+    background-position: 0 0, 0 5px, 5px -5px, -5px 0px;
+    background-size: 10px 10px;
+  }
+
+  &.dark {
+    background-color: $color-neutralPrimary;
+  }
+
+  &.light {
+    background-color: $color-neutralLight;
   }
 }
