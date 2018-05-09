@@ -6,8 +6,7 @@ const Resources = () => (
     <h3>Adobe Illustrator templates</h3>
     <p>Color palette is included in the templates.</p>
     <ul>
-      <li><a href="files/vscom-template.zip" download>Illustration template for vs.com (100 artboards)</a></li>
-      <li><a href="files/vsts-template.zip" download>Illustration template for VSTS (100 artboards)</a></li>
+      <li><a href="files/MSFTIllustrationTemplate.zip" download>Download *.ait template with Microsoft Illustration color palette</a></li>
     </ul>
   </div>
 );
