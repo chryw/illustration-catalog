@@ -203,5 +203,6 @@
 {"id":203,"title":"swimlane-machine-learning-proven-extensible","group":"dotnet","area":"swimlane","keywords":["tree","node","branch","woman","people","machine","learning"],"description":"Line dot tree with machine learning icons","publish":1},
 {"id":204,"title":"swimlane-machine-learning-pipeline","group":"dotnet","area":"swimlane","keywords":["woman","people","assembly","line","conveyor","belt","machine","learning","pipeline"],"description":"Conveyor belt with machine learning icons.","publish":1},
 {"id":205,"title":"swimlane-machine-learning-for-dotnet","group":"dotnet","area":"swimlane","keywords":[".net","box","laptop","cloud","lightbulb","machine","learning"],"description":"Box with machine learning icons.","publish":1},
-{"id":206,"title":"swimlane-machine-learning-brain-lightbulb","group":"dotnet","area":"swimlane","keywords":["brain","lightbulb","machine","learning"],"description":"Line dot brain with lightbulb.","publish":1}
+{"id":206,"title":"swimlane-machine-learning-brain-lightbulb","group":"dotnet","area":"swimlane","keywords":["brain","lightbulb","machine","learning"],"description":"Line dot brain with lightbulb.","publish":1},
+{"id":207,"title":"wizard-upgrade-from-xml-to-inheritance","group":"wizard","area":"agile","keywords":["inheritance","xml","file","document","instance","dotted","line"],"description":"Upgrade from XML defined process to inheritance type.","publish":1}
 ]
