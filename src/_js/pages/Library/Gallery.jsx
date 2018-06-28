@@ -32,6 +32,7 @@ export default class Gallery extends React.Component {
   componentWillMount() {
     // get data
     axios.get(this.props.dataurl).then((response) => {
+      console.log(typeof response.data);
       const items = response.data.filter(item => item.publish === 1);
       const filteredItems = items;
 
