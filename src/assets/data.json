@@ -234,8 +234,14 @@
 {"id":235,"title":"swimlane-customize-editor-theme","group":"dotnet","area":"swimlane","keywords":["customize","editor","paint","brush","color","theme"],"description":"Customize Try .NET editor theme.","publish":1},
 {"id":236,"title":"swimlane-embed-github-snippet","group":"dotnet","area":"swimlane","keywords":["embed","github","snippet","code","browser"],"description":"Load GitHub gists with Try .NET to edit code in browser.","publish":1},
 {"id":237,"title":"swimlane-feature-tree-with-people","group":"dotnet","area":"swimlane","keywords":["tree","branch","node","feature","people"],"description":"See what people are creating with Try .NET.","publish":1},
-{"id":238,"title":"hero-azure-notebooks","group":"notebooks","area":"hero","keywords":["azure","notebooks"],"description":"azure notebooks","publish":1},
-{"id":239,"title":"spot-azure-accessible-everywhere","group":"notebooks","area":"spot","keywords":["globe"],"description":"globe","publish":1},
-{"id":240,"title":"spot-notebooks-languages","group":"notebooks","area":"spot","keywords":["notebooks","language"],"description":"notebooks language","publish":1},
-{"id":241,"title":"spot-scientist-developer-student","group":"notebooks","area":"spot","keywords":["people"],"description":"people","publish":1}
+{"id":238,"title":"hero-azure-notebooks","group":"notebooks","area":"hero","keywords":["azure","notebooks","data","science","charts","people","lab"],"description":"An open notebook with people working on different domains of data science.","publish":1},
+{"id":239,"title":"spot-azure-accessible-everywhere","group":"notebooks","area":"spot","keywords":["azure","globe","cloud"],"description":"Azure Cloud Services accessible from anywhere in the world.","publish":1},
+{"id":240,"title":"spot-notebooks-languages","group":"notebooks","area":"spot","keywords":["notebooks","language"],"description":"Azure Notebooks supports multiple languages.","publish":1},
+{"id":241,"title":"spot-scientist-developer-student","group":"notebooks","area":"spot","keywords":["people","scientist","developer","student","lab","microscope","tool","engineering","cap","education"],"description":"Use Azure Notebooks for many workspaces and scenarios.","publish":1},
+{"id":242,"title":"swimlane-migrate-to-azure","group":"dotnet","area":"swimlane","keywords":["migrate","azure","cloud","helicopter","move","transfer"],"description":"Migrate existing .NET apps to Azure.","publish":1},
+{"id":243,"title":"swimlane-serverless-computing","group":"dotnet","area":"swimlane","keywords":["serverless","computing","unplug","network","cloud","computer","device","laptop","desktop","pc","web"],"description":"Serverless computing with .NET","publish":1},
+{"id":244,"title":"swimlane-web-app-tools-library","group":"dotnet","area":"swimlane","keywords":["toolbox","tool","hammer","utility","wrench","pencil","clipboard","book","library"],"description":"Blue toolbox and books.","publish":1},
+{"id":245,"title":"swimlane-build-cloud-apps","group":"dotnet","area":"swimlane","keywords":["build","forklift","box","container","cloud","scalable","people"],"description":"Build modern scalable cloud apps with .NET","publish":1},
+{"id":246,"title":"swimlane-docker-container-support","group":"dotnet","area":"swimlane","keywords":["docker","cloud","container","ship","port","city","skyline","computer","laptop"],"description":"Ship with containers to represent Docker containers.","publish":1},
+{"id":247,"title":"swimlane-global-data-storage","group":"dotnet","area":"swimlane","keywords":["data","storage","database","globe","duplicate","world"],"description":"Data storage accessible from everywhere in the world.","publish":1}
 ]
