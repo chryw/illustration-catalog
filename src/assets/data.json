@@ -233,5 +233,9 @@
 {"id":234,"title":"swimlane-try-dotnet-features","group":"dotnet","area":"swimlane","keywords":["features","javascript","github","editor","code","theme","customize","paint","color","lightbulb","woman","people"],"description":"Try .NET features GitHub integration, customizable theme and JavaScript support.","publish":1},
 {"id":235,"title":"swimlane-customize-editor-theme","group":"dotnet","area":"swimlane","keywords":["customize","editor","paint","brush","color","theme"],"description":"Customize Try .NET editor theme.","publish":1},
 {"id":236,"title":"swimlane-embed-github-snippet","group":"dotnet","area":"swimlane","keywords":["embed","github","snippet","code","browser"],"description":"Load GitHub gists with Try .NET to edit code in browser.","publish":1},
-{"id":237,"title":"swimlane-feature-tree-with-people","group":"dotnet","area":"swimlane","keywords":["tree","branch","node","feature","people"],"description":"See what people are creating with Try .NET.","publish":1}
+{"id":237,"title":"swimlane-feature-tree-with-people","group":"dotnet","area":"swimlane","keywords":["tree","branch","node","feature","people"],"description":"See what people are creating with Try .NET.","publish":1},
+{"id":238,"title":"hero-azure-notebooks","group":"notebooks","area":"hero","keywords":["azure","notebooks"],"description":"azure notebooks","publish":1},
+{"id":239,"title":"spot-azure-accessible-everywhere","group":"notebooks","area":"spot","keywords":["globe"],"description":"globe","publish":1},
+{"id":240,"title":"spot-notebooks-languages","group":"notebooks","area":"spot","keywords":["notebooks","language"],"description":"notebooks language","publish":1},
+{"id":241,"title":"spot-scientist-developer-student","group":"notebooks","area":"spot","keywords":["people"],"description":"people","publish":1}
 ]
