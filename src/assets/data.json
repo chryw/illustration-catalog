@@ -243,5 +243,10 @@
 {"id":244,"title":"swimlane-web-app-tools-library","group":"dotnet","area":"swimlane","keywords":["toolbox","tool","hammer","utility","wrench","pencil","clipboard","book","library"],"description":"Blue toolbox and books.","publish":1},
 {"id":245,"title":"swimlane-build-cloud-apps","group":"dotnet","area":"swimlane","keywords":["build","forklift","box","container","cloud","scalable","people"],"description":"Build modern scalable cloud apps with .NET","publish":1},
 {"id":246,"title":"swimlane-docker-container-support","group":"dotnet","area":"swimlane","keywords":["docker","cloud","container","ship","port","city","skyline","computer","laptop"],"description":"Ship with containers to represent Docker containers.","publish":1},
-{"id":247,"title":"swimlane-global-data-storage","group":"dotnet","area":"swimlane","keywords":["data","storage","database","globe","duplicate","world"],"description":"Data storage accessible from everywhere in the world.","publish":1}
+{"id":247,"title":"swimlane-global-data-storage","group":"dotnet","area":"swimlane","keywords":["data","storage","database","globe","duplicate","world"],"description":"Data storage accessible from everywhere in the world.","publish":1},
+{"id":248,"title":"swimlane-security","group":"dotnet","area":"swimlane","keywords":["security","guard","camera","safe","secure"],"description":"A safety guard protecting a safe.","publish":1},
+{"id":249,"title":"swimlane-angular-react-spa","group":"dotnet","area":"swimlane","keywords":["angular","react","spa","single","page","application","website"],"description":"React and Angular logo and single page web app.","publish":1},
+{"id":250,"title":"swimlane-build-scalable-web-apps","group":"dotnet","area":"swimlane","keywords":["build","scalable","web","app","page","truck","box","people"],"description":"A worker loading boxes from truck to a web page.","publish":1},
+{"id":251,"title":"swimlane-model-view-controller","group":"dotnet","area":"swimlane","keywords":["mvc","model","view","controller","data","gear","presentation","theme","paint","bucket","brush","design","frontend","backend","stack"],"description":"MVC illustration.","publish":1},
+{"id":252,"title":"swimlane-seamless-data-integration","group":"dotnet","area":"swimlane","keywords":["data","database","orbit"],"description":"Seamless data integration.","publish":1}
 ]
