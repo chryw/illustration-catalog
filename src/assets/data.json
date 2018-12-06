@@ -248,5 +248,8 @@
 {"id":249,"title":"swimlane-angular-react-spa","group":"dotnet","area":"swimlane","keywords":["angular","react","spa","single","page","application","website"],"description":"React and Angular logo and single page web app.","publish":1},
 {"id":250,"title":"swimlane-build-scalable-web-apps","group":"dotnet","area":"swimlane","keywords":["build","scalable","web","app","page","truck","box","people"],"description":"A worker loading boxes from truck to a web page.","publish":1},
 {"id":251,"title":"swimlane-model-view-controller","group":"dotnet","area":"swimlane","keywords":["mvc","model","view","controller","data","gear","presentation","theme","paint","bucket","brush","design","frontend","backend","stack"],"description":"MVC illustration.","publish":1},
-{"id":252,"title":"swimlane-seamless-data-integration","group":"dotnet","area":"swimlane","keywords":["data","database","orbit"],"description":"Seamless data integration.","publish":1}
+{"id":252,"title":"swimlane-seamless-data-integration","group":"dotnet","area":"swimlane","keywords":["data","database","orbit"],"description":"Seamless data integration.","publish":1},
+{"id":253,"title":"swimlane-authentication-authorization","group":"dotnet","area":"swimlane","keywords":["authentication","authorization","password","login","key","lock","badge","access","key","chain"],"description":"A key chain with several authentication objects.","publish":1},
+{"id":254,"title":"swimlane-rest-api","group":"dotnet","area":"swimlane","keywords":["rest","restful","api","json","bracket","data","database","interface","connect","device","platform"],"description":"Used to represent REST api.","publish":1},
+{"id":255,"title":"swimlane-secure-chat-app","group":"dotnet","area":"swimlane","keywords":["lock","secure","chat","people","avatar","message"],"description":"An IM app with encrypted conversation.","publish":1}
 ]
