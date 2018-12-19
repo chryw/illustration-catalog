@@ -17,6 +17,16 @@ const Resources = () => (
           {'Download *.ait template with Microsoft Illustration color palette'}
         </a>
       </li>
+      <li>
+        <a href="files/Microsoft_illustration_library_January2018.pdf" download>
+          {'Download BrandCentral illustration deck'}
+        </a>
+      </li>
+      <li>
+        <a href="files/Illustration_assets_M365.pdf" download>
+          {'Download Microsoft 365 illustration deck'}
+        </a>
+      </li>
     </ul>
   </div>
 );
