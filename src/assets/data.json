@@ -277,5 +277,5 @@
 {"id":278,"title":"swimlane-community-documentation","group":"dotnet","area":"swimlane","keywords":["community","people","collaboration","documentation","open","source","hands","paper","pencil","team"],"description":"Active developer community and up to date documentation.","publish":1},
 {"id":279,"title":"swimlane-license-certificates","group":"dotnet","area":"swimlane","keywords":["license","certificate","ribbon","copyright"],"description":"License certificates.","publish":1},
 {"id":280,"title":"swimlane-brand-dotnet-foundation","group":"dotnet","area":"swimlane","keywords":["brand","dotnet","foundation","logo"],"description":".NET Foundation logo.","publish":1},
-{"id":281,"title":"swimlane-brand-github-octocat","group":"dotnet","area":"swimlane","keywords":["brand","github","octocat","mascot"],"description":"GitHub Octocat.","publish":1},
+{"id":281,"title":"swimlane-brand-github-octocat","group":"dotnet","area":"swimlane","keywords":["brand","github","octocat","mascot"],"description":"GitHub Octocat.","publish":1}
 ]
