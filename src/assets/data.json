@@ -278,5 +278,7 @@
 {"id":279,"title":"swimlane-license-certificates","group":"dotnet","area":"swimlane","keywords":["license","certificate","ribbon","copyright"],"description":"License certificates.","publish":1},
 {"id":280,"title":"swimlane-brand-dotnet-foundation","group":"dotnet","area":"swimlane","keywords":["brand","dotnet","foundation","logo"],"description":".NET Foundation logo.","publish":1},
 {"id":281,"title":"swimlane-brand-github-octocat","group":"dotnet","area":"swimlane","keywords":["brand","github","octocat","mascot"],"description":"GitHub Octocat.","publish":1},
-{"id":282,"title":"swimlane-brand-microsoft","group":"dotnet","area":"swimlane","keywords":["brand","microsoft","logo"],"description":"Microsoft logo.","publish":1}
+{"id":282,"title":"swimlane-brand-microsoft","group":"dotnet","area":"swimlane","keywords":["brand","microsoft","logo"],"description":"Microsoft logo.","publish":1},
+{"id":284,"title":"modal-man-dog- rube-goldberg-machine","group":"vscom","area":"modal","keywords":["man","laptop","people","dog","work","play","productivity","rube","goldberg","machine"],"description":"A man using a laptop, sitting on the ground with a dog. A Rube Goldberg machine in the background.","publish":1},
+{"id":285,"title":"modal-subscribe-to-news-tips","group":"vscom","area":"modal","keywords":["woman","people","laptop","subscribe","email","newsletter","newspaper","lightbulb","tips","envelope","video","tutorials"],"description":"A woman using a laptop. Newsletter related icons floating around.","publish":1}
 ]

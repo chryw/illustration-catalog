@@ -44,3 +44,6 @@ dist
 
 # system garbage
 Thumbs.db
+
+# Excel temporary files
+~$*.xlsx
