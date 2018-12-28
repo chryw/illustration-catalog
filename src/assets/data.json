@@ -267,7 +267,7 @@
 {"id":268,"title":"swimlane-docker-three-platforms","group":"dotnet","area":"swimlane","keywords":["docker","platform","os","windows","linux","macos","ship","container"],"description":"A freight ship with containers running on Windows, Linux and macOS.","publish":1},
 {"id":269,"title":"swimlane-dotnet-compatible-with-other-tools","group":"dotnet","area":"swimlane","keywords":["dotnet","module","microservices","cube","plug","compatible","side","by","side","tools","stacks","people"],"description":".NET works side-by-side with other technology stacks.","publish":1},
 {"id":270,"title":"swimlane-microservices-build","group":"dotnet","area":"swimlane","keywords":["microservices","build","module","truck","people","load","blocks"],"description":"People integrating microservice modules to make complete products.","publish":1},
-{"id":271,"title":"swimlane-microservices-modules","group":"dotnet","area":"swimlane","keywords":["microservices","building","blocks","modules","cubes","plug","connect","integrate"],"description":"Microservices building blocks.","publish":1}
+{"id":271,"title":"swimlane-microservices-modules","group":"dotnet","area":"swimlane","keywords":["microservices","building","blocks","modules","cubes","plug","connect","integrate"],"description":"Microservices building blocks.","publish":1},
 {"id":272,"title":"swimlane-brand-docker","group":"dotnet","area":"swimlane","keywords":["docker","brand","logo"],"description":"Docker logo","publish":1},
 {"id":273,"title":"swimlane-event-driven-programming","group":"dotnet","area":"swimlane","keywords":["winform","event","trigger","click","button","control","sync","server","gear"],"description":"Event triggered in the presentation tier and passed to server.","publish":1},
 {"id":274,"title":"swimlane-razor-cross-platform","group":"dotnet","area":"swimlane","keywords":["razor","@","html","cross","platform","windows","linux","macos","coffee","mugs","cups","tea"],"description":"Razor pages works across multiple platforms.","publish":1},
@@ -277,5 +277,6 @@
 {"id":278,"title":"swimlane-community-documentation","group":"dotnet","area":"swimlane","keywords":["community","people","collaboration","documentation","open","source","hands","paper","pencil","team"],"description":"Active developer community and up to date documentation.","publish":1},
 {"id":279,"title":"swimlane-license-certificates","group":"dotnet","area":"swimlane","keywords":["license","certificate","ribbon","copyright"],"description":"License certificates.","publish":1},
 {"id":280,"title":"swimlane-brand-dotnet-foundation","group":"dotnet","area":"swimlane","keywords":["brand","dotnet","foundation","logo"],"description":".NET Foundation logo.","publish":1},
-{"id":281,"title":"swimlane-brand-github-octocat","group":"dotnet","area":"swimlane","keywords":["brand","github","octocat","mascot"],"description":"GitHub Octocat.","publish":1}
+{"id":281,"title":"swimlane-brand-github-octocat","group":"dotnet","area":"swimlane","keywords":["brand","github","octocat","mascot"],"description":"GitHub Octocat.","publish":1},
+{"id":282,"title":"swimlane-brand-microsoft","group":"dotnet","area":"swimlane","keywords":["brand","microsoft","logo"],"description":"Microsoft logo.","publish":1}
 ]
