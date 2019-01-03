@@ -280,5 +280,6 @@
 {"id":281,"title":"swimlane-brand-github-octocat","group":"dotnet","area":"swimlane","keywords":["brand","github","octocat","mascot"],"description":"GitHub Octocat.","publish":1},
 {"id":282,"title":"swimlane-brand-microsoft","group":"dotnet","area":"swimlane","keywords":["brand","microsoft","logo"],"description":"Microsoft logo.","publish":1},
 {"id":284,"title":"modal-man-dog- rube-goldberg-machine","group":"vscom","area":"modal","keywords":["man","laptop","people","dog","work","play","productivity","rube","goldberg","machine"],"description":"A man using a laptop, sitting on the ground with a dog. A Rube Goldberg machine in the background.","publish":1},
-{"id":285,"title":"modal-subscribe-to-news-tips","group":"vscom","area":"modal","keywords":["woman","people","laptop","subscribe","email","newsletter","newspaper","lightbulb","tips","envelope","video","tutorials"],"description":"A woman using a laptop. Newsletter related icons floating around.","publish":1}
+{"id":285,"title":"modal-subscribe-to-news-tips","group":"vscom","area":"modal","keywords":["woman","people","laptop","subscribe","email","newsletter","newspaper","lightbulb","tips","envelope","video","tutorials"],"description":"A woman using a laptop. Newsletter related icons floating around.","publish":1},
+{"id":286,"title":"modal-joining-live-share-session","group":"vscom","area":"modal","keywords":["code","developer","editor","collaborate","share","people","computer","monitor","laptop"],"description":"A developer joining a Live Share session.","publish":1}
 ]
