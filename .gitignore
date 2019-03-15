@@ -47,3 +47,6 @@ Thumbs.db
 
 # Excel temporary files
 ~$*.xlsx
+
+# Mac temporary files
+.DS_Store

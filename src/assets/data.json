@@ -292,5 +292,15 @@
 {"id":293,"title":"swimlane-subscribe-to-news-tips","group":"dotnet","area":"swimlane","keywords":["woman","people","laptop","subscribe","email","newsletter","newspaper","lightbulb","tips","envelope","video","tutorials"],"description":"A woman using a laptop. Newsletter related icons floating around.","publish":1},
 {"id":294,"title":"prop-productive","group":"vscom","area":"valueprop","keywords":["productivity","machine","belt","process"],"description":"Belt and gear.","publish":1},
 {"id":295,"title":"prop-innovate","group":"vscom","area":"valueprop","keywords":["innovative","lightbulb","idea","insight","beaker"],"description":"A lightbulb and a beaker.","publish":1},
-{"id":296,"title":"prop-modern","group":"vscom","area":"valueprop","keywords":["modern","technology","robot","machine"],"description":"A robot pressing a button.","publish":1}
+{"id":296,"title":"prop-modern","group":"vscom","area":"valueprop","keywords":["modern","technology","robot","machine"],"description":"A robot pressing a button.","publish":1},
+{"id":297,"title":"hero-race-car-blue","group":"dataacc","area":"hero","keywords":["race","car","speed","accelerate","data","science"],"description":"A running race car with data numbers speed lines.","publish":1},
+{"id":298,"title":"hero-race-car","group":"dataacc","area":"hero","keywords":["race","car","speed","accelerate","data","science"],"description":"A running race car with data numbers speed lines.","publish":1},
+{"id":299,"title":"prop-add-sql-to-flow","group":"dataacc","area":"valueprop","keywords":["sql","database","flow","chart","lightbulb"],"description":"Used for adding sql to flow tutorial.","publish":1},
+{"id":300,"title":"prop-extend-and-reuse","group":"dataacc","area":"valueprop","keywords":["extend","reuse","module","cube","plug","extension"],"description":"Connected cubes that represent modular code.","publish":1},
+{"id":301,"title":"prop-get-schema","group":"dataacc","area":"valueprop","keywords":["schema","process","flow","conveyor","belt","beaker","lab","science","chart","gear"],"description":"Used for get schema tutorial.","publish":1},
+{"id":302,"title":"prop-home-automation","group":"dataacc","area":"valueprop","keywords":["home","automation","smart","iot","connected"],"description":"Used for home automation sample.","publish":1},
+{"id":303,"title":"prop-live-query","group":"dataacc","area":"valueprop","keywords":["live","query","immediate","fast","lightning","bolt"],"description":"Used for live query tutorial.","publish":1},
+{"id":304,"title":"prop-no-code-ui","group":"dataacc","area":"valueprop","keywords":["ui","drag","drop","hand"],"description":"Used for representing no code UI experience.","publish":1},
+{"id":305,"title":"prop-sql-knowledge","group":"dataacc","area":"valueprop","keywords":["sql","database","knowledge","education","graduateion","cap"],"description":"Used for language feature tutorial.","publish":1},
+{"id":306,"title":"hero-developer-day-2019","group":"vscom","area":"hero","keywords":["developer","day","build","seattle","feedback","bubble","lightbulb","rube","goldburg","machine","process","city","sasquatch"],"description":"Hero image for Develoepr Day 2019","publish":1}
 ]
