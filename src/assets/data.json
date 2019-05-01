@@ -327,5 +327,16 @@
 {"id":328,"title":"banner-solid-icons-1-purple","group":"devblog","area":"banner","keywords":["icon"],"description":"Background images used for DevBlog banner area.","publish":1},
 {"id":329,"title":"banner-solid-icons-2-purple-dark","group":"devblog","area":"banner","keywords":["icon"],"description":"Background images used for DevBlog banner area.","publish":1},
 {"id":330,"title":"banner-solid-icons-2-purple","group":"devblog","area":"banner","keywords":["icon"],"description":"Background images used for DevBlog banner area.","publish":1},
-{"id":331,"title":"banner-triangulation-purple","group":"devblog","area":"banner","keywords":["triangle","shape","geometry"],"description":"Background images used for DevBlog banner area.","publish":1}
+{"id":331,"title":"banner-triangulation-purple","group":"devblog","area":"banner","keywords":["triangle","shape","geometry"],"description":"Background images used for DevBlog banner area.","publish":1},
+{"id":331,"title":"banner-triangulation-purple","group":"devblog","area":"banner","keywords":["triangle","shape","geometry"],"description":"Background images used for DevBlog banner area.","publish":1},
+{"id":332,"title":"swimlane-blazor-shared-libraries","group":"dotnet","area":"swimlane","keywords":["blazor","browser","web","share","library","component","colde","module","book"],"description":"Blazor supports shared library and code components.","publish":1},
+{"id":333,"title":"swimlane-browser-server","group":"dotnet","area":"swimlane","keywords":["browser","client","server","web","frontend","backend"],"description":"Blazor runs on browser and server.","publish":1},
+{"id":334,"title":"swimlane-cross-browser","group":"dotnet","area":"swimlane","keywords":["cross","browser","chrome","firefox","edge","safari","mobile","phone","platform"],"description":"Four common browsers collage.","publish":1},
+{"id":335,"title":"swimlane-cross-platform-desktop","group":"dotnet","area":"swimlane","keywords":["cross","platform","windows","mac","linux","computer","laptop","desktop"],"description":"Three devices collage.","publish":1},
+{"id":336,"title":"swimlane-csharp-javascript","group":"dotnet","area":"swimlane","keywords":["c#","csharp","js","javascript","language","interop"],"description":"C# works with JavaScript.","publish":1},
+{"id":336,"title":"swimlane-csharp-javascript","group":"dotnet","area":"swimlane","keywords":["c#","csharp","js","javascript","language","interop"],"description":"C# works with JavaScript.","publish":1},
+{"id":337,"title":"swimlane-cross-platform-cloud","group":"dotnet","area":"swimlane","keywords":["cross","platform","windows","mac","linux","computer","laptop","desktop","cloud"],"description":"Three devices collage and a cloud.","publish":1},
+{"id":338,"title":"swimlane-dotnet-for-spark-rainbow-chart","group":"dotnet","area":"swimlane","keywords":["rainbow","chart","stack"],"description":".NET for Apache Spark technology stack diagram.","publish":1},
+{"id":339,"title":"swimlane-dotnet-speed-bar-chart","group":"dotnet","area":"swimlane","keywords":["bar","chart","performance","speed"],"description":".NET performance comapred with others.","publish":1},
+{"id":340,"title":"swimlane-processing-data-multi-server","group":"dotnet","area":"swimlane","keywords":["data","process","cube","clustor","node","server","connected","centralized","hub"],"description":"Large amount of data being processed with a clustor of server nodes.","publish":1}
 ]
