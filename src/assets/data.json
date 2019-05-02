@@ -338,5 +338,6 @@
 {"id":337,"title":"swimlane-cross-platform-cloud","group":"dotnet","area":"swimlane","keywords":["cross","platform","windows","mac","linux","computer","laptop","desktop","cloud"],"description":"Three devices collage and a cloud.","publish":1},
 {"id":338,"title":"swimlane-dotnet-for-spark-rainbow-chart","group":"dotnet","area":"swimlane","keywords":["rainbow","chart","stack"],"description":".NET for Apache Spark technology stack diagram.","publish":1},
 {"id":339,"title":"swimlane-dotnet-speed-bar-chart","group":"dotnet","area":"swimlane","keywords":["bar","chart","performance","speed"],"description":".NET performance comapred with others.","publish":1},
-{"id":340,"title":"swimlane-processing-data-multi-server","group":"dotnet","area":"swimlane","keywords":["data","process","cube","clustor","node","server","connected","centralized","hub"],"description":"Large amount of data being processed with a clustor of server nodes.","publish":1}
+{"id":340,"title":"swimlane-processing-data-multi-server","group":"dotnet","area":"swimlane","keywords":["data","process","cube","clustor","node","server","connected","centralized","hub"],"description":"Large amount of data being processed with a clustor of server nodes.","publish":1},
+{"id":341,"title":"swimlane-100-percent-free","group":"dotnet","area":"swimlane","keywords":["people","dance","happy","jump","free"],"description":"100% free open source liscence.","publish":1}
 ]
